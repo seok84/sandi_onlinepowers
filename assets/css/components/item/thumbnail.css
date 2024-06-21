@@ -1,0 +1,73 @@
+/** item/part/thumbnail 컴포넌트 **/
+
+.item-thumbnail {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 1.2rem;
+}
+
+.thumbnail {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 37.8rem;
+    border: 1px solid var(--color-lightblue-bg);
+    background-color: var(--color-lightblue-bg);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.rank {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-family: Poppins;
+    color: #fff;
+    border-radius: 1rem;
+    background-color: var(--color-sub-pink-1);
+    font-size: 16px;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.time {
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.16);
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+
+/* 노트북 */
+@media (max-width: 1194px) {}
+
+@media (max-width: 991px) {}
+
+/* 태블릿 */
+@media (max-width: 768px) {}
+
+/* 모바일 */
+@media (max-width: 480px) {}

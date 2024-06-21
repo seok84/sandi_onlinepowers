@@ -1,0 +1,33 @@
+<svg id="ic_close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        opacity: 0;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke-width: 1.2px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_29933" data-name="사각형 29933" class="cls-1" width="20" height="20" transform="translate(10 10)"/>
+    </clipPath>
+  </defs>
+  <rect id="사각형_3484" data-name="사각형 3484" class="cls-2" width="48" height="48"/>
+  <g id="마스크_그룹_384" data-name="마스크 그룹 384" class="cls-3" transform="translate(4 4)">
+    <path id="합치기_52" data-name="합치기 52" class="cls-4" d="M9.52,9.7.02,19.2l9.5-9.5L.02.2l9.5,9.5L19.02.2,9.52,9.7l9.5,9.5Z" transform="translate(10.48 10.305)"/>
+  </g>
+</svg>

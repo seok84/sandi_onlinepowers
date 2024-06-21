@@ -1,0 +1,26 @@
+<svg id="ic_star_none" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: red;
+      }
+
+      .cls-3 {
+        fill: #eee;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_30101" data-name="사각형 30101" class="cls-1" width="18" height="18" transform="translate(0 0)"/>
+  <g id="그룹_29210" data-name="그룹 29210" transform="translate(-0.504 -0.504)">
+    <rect id="사각형_29998" data-name="사각형 29998" class="cls-2" width="18" height="18" transform="translate(0.504 0.504)"/>
+    <path id="다각형_162" data-name="다각형 162" class="cls-3" d="M8.543,1.022a.5.5,0,0,1,.913,0l2.13,4.766a.5.5,0,0,0,.391.292l5.01.662a.5.5,0,0,1,.286.852l-3.715,3.664a.5.5,0,0,0-.141.446l.953,5.233a.5.5,0,0,1-.742.522L9.25,14.925a.5.5,0,0,0-.5,0L4.374,17.458a.5.5,0,0,1-.742-.522L4.584,11.7a.5.5,0,0,0-.141-.446L.728,7.593a.5.5,0,0,1,.286-.852l5.01-.662a.5.5,0,0,0,.391-.292Z" transform="translate(0.504 0.504)"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="289" height="50" viewBox="0 0 289 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_26988" data-name="사각형 26988" width="16" height="10" transform="translate(48.968 5339.312)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_24039" data-name="그룹 24039" transform="translate(-363 -6672)">
+    <text id="똑똑하고_맛있는_구매" data-name="똑똑하고 맛있는 구매" transform="translate(363 6712)" font-size="33" font-family="S-CoreDream-7ExtraBold, 'S-Core Dream \37 '" font-weight="800" letter-spacing="-0.05em"><tspan x="0" y="0">똑똑하고 맛있는 구매</tspan></text>
+    <g id="마스크_그룹_186" data-name="마스크 그룹 186" transform="translate(366.032 1332.688)" clip-path="url(#clip-path)">
+      <path id="패스_4504" data-name="패스 4504" d="M571.679,5330l1.075,6.02" transform="translate(-520.45 10.328)" fill="none" stroke="#000" stroke-width="2"/>
+      <path id="패스_4505" data-name="패스 4505" d="M577.647,5330.261l-2.361,5.791" transform="translate(-519.266 10.413)" fill="none" stroke="#000" stroke-width="2"/>
+      <path id="패스_4506" data-name="패스 4506" d="M582.367,5333.246,577.6,5337.3" transform="translate(-518.507 11.393)" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

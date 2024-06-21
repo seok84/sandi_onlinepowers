@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>대상다이브스 서비스 일시 중단 안내</title>
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    .bg_area {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background: url(./check_out_bg_color.jpg) center / auto 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pc {
+      display: block;
+    }
+
+    .mobile {
+      display: none;
+    }
+
+    .bg_area>div {
+      width: auto;
+      height: auto;
+      position: relative;
+    }
+
+    .bg_area a {
+      position: absolute;
+      bottom: 80px;
+      right: 70px;
+      width: 100px;
+      height: 50px;
+      font-size: 0;
+      cursor:inherit;
+    }
+
+    .bg_area img {
+      margin: 0 auto;
+      max-width: 800px;
+    }
+
+    @media (max-width: 1024px) {
+      .pc {
+        display: none;
+      }
+
+      .mobile {
+        display: block;
+      }
+
+      .bg_area {
+        background-image: none;
+        justify-content: center;
+      }
+
+      .bg_area img {
+        max-width: 100%;
+        margin: 0 auto;
+      }
+
+      .bg_area a {
+        bottom: 0;
+        right: 0;
+      }
+
+      @media (max-width: 480px) {
+        .bg_area {
+          height: 100%;
+        }
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg_area">
+    <div>
+
+      <img src="./check_out_pc.png" alt="대상다이브스 서비스 일시 중단 안내" class="pc" />
+      <img src="./check_out_mobile_color.png" alt="대상다이브스 서비스 일시 중단 안내" class="mobile" />
+      <a href="" class="inspection_link">링크링크</a>
+    </div>
+  </div>
+</body>
+
+</html>

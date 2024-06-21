@@ -1,0 +1,177 @@
+.check_animation {
+  width: 8.8rem;
+  height: 8.8rem;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle_img {
+  width: 8.8rem;
+  height: 8.8rem;
+  position: relative;
+  border-radius: 50%;
+  transform-origin: center center;
+  transform: scale(1);
+  animation: popCircle 0.65s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes popCircle {
+  0% {
+    transform: scale(0.7);
+  }
+
+  30% {
+    transform: scale(0.6);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*
+.circle_img::before,
+.circle_img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: inherit;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: #9e9e9e;
+  border-radius: inherit;
+  animation: pulsing 1.5s linear infinite;
+  z-index: -1;
+}
+
+.circle_img:after {
+  animation: pulsing1 1.5s linear infinite;
+  animation-delay: 0.5s;
+}
+*/
+
+@keyframes pulsing {
+  0% {
+    opacity: 1;
+    transform: scaleY(1) scaleX(1);
+  }
+
+  20% {
+    opacity: 0.5;
+  }
+
+  70% {
+    opacity: 0.2;
+    transform: scaleY(1.35) scaleX(1.35);
+  }
+
+  80% {
+    opacity: 0;
+    transform: scaleY(1.35) scaleX(1.35);
+  }
+
+  90% {
+    opacity: 0;
+    transform: scaleY(1) scaleX(1);
+    background-color: #ffffff;
+  }
+}
+
+@keyframes pulsing1 {
+  0% {
+    opacity: 1;
+    transform: scaleY(1) scaleX(1);
+  }
+
+  20% {
+    opacity: 0.5;
+  }
+
+  70% {
+    opacity: 0.2;
+    transform: scaleY(1.2) scaleX(1.2);
+  }
+
+  80% {
+    opacity: 0;
+    transform: scaleY(1.2) scaleX(1.2);
+  }
+
+  90% {
+    opacity: 0;
+    transform: scaleY(1) scaleX(1);
+    background-color: #ffffff;
+  }
+}
+
+.twinkle_wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.twinkle {
+  width: 2.2rem;
+  height: 2.2rem;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: absolute;
+  transform-origin: center;
+  z-index: 1;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.twinkle_L {
+  animation: moveTwinkleL 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-delay: 0.2s;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%) scale(1);
+  background-image: url("~/assets/img/common/twinkle_L.png");
+}
+
+.twinkle_R {
+  animation: moveTwinkleR 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-delay: 0.2s;
+  bottom: 0%;
+  right: 0%;
+  transform: translate(50%, 50%) scale(1);
+  background-image: url("~/assets/img/common/twinkle_R.png");
+}
+
+@keyframes moveTwinkleL {
+  0% {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+
+  100% {
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes moveTwinkleR {
+  0% {
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%) scale(0.5);
+  }
+
+  100% {
+    bottom: 0%;
+    right: 0%;
+    transform: translate(50%, 50%) scale(1);
+  }
+}

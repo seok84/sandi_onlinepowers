@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,156,156,0);
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-10, .cls-3, .cls-6 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke: #000;
+        stroke-width: 1.5px;
+      }
+
+      .cls-5 {
+        fill: #e7ff5e;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7 {
+        font-size: 20px;
+        font-family: Noto Sans KR-Medium, Noto Sans CJK KR;
+        font-weight: 500;
+        letter-spacing: -0.05em;
+      }
+
+      .cls-8, .cls-9 {
+        stroke: none;
+      }
+
+      .cls-9 {
+        fill: #000;
+      }
+    </style>
+  </defs>
+  <g id="그룹_31110" data-name="그룹 31110" transform="translate(-709 -1020)">
+    <rect id="사각형_30916" data-name="사각형 30916" class="cls-1" width="80" height="80" transform="translate(709 1020)"/>
+    <g id="그룹_30526" data-name="그룹 30526" transform="translate(209)">
+      <g id="그룹_30525" data-name="그룹 30525">
+        <g id="합치기_194" data-name="합치기 194" class="cls-2" transform="translate(506 1031)">
+          <path class="cls-8" d="M 37.25 55.25 L 0.75 55.25 L 0.75 19.42898941040039 L 4.610779762268066 7.511410236358643 L 4.647290229797363 7.398719787597656 L 4.647290229797363 7.280270099639893 L 4.647290229797363 0.75 L 33.35271072387695 0.75 L 33.35271072387695 7.280270099639893 L 33.35271072387695 7.398719787597656 L 33.38922119140625 7.511410236358643 L 37.25 19.42898941040039 L 37.25 55.25 Z"/>
+          <path class="cls-9" d="M 36.5 54.5 L 36.5 19.54746055603027 L 32.60271072387695 7.5171799659729 L 32.60271072387695 1.5 L 5.397290229797363 1.5 L 5.397290229797363 7.5171799659729 L 1.5 19.54746055603027 L 1.5 54.5 L 36.5 54.5 M 38 56 L 0 56 L 0 19.31055068969727 L 3.897289991378784 7.280270099639893 L 3.897289991378784 -3.552713678800501e-15 L 34.10271072387695 -3.552713678800501e-15 L 34.10271072387695 7.280270099639893 L 38 19.31055068969727 L 38 56 Z"/>
+        </g>
+        <line id="선_370" data-name="선 370" class="cls-3" x2="29.154" transform="translate(510.5 1038.5)"/>
+        <line id="선_371" data-name="선 371" class="cls-3" x2="9" transform="translate(520.5 1044.5)"/>
+        <line id="선_372" data-name="선 372" class="cls-3" x2="5" transform="translate(522.5 1048.5)"/>
+        <g id="그룹_30521" data-name="그룹 30521" transform="translate(7)">
+          <g id="타원_1436" data-name="타원 1436" class="cls-4" transform="translate(510 1059)">
+            <ellipse class="cls-8" cx="8" cy="10" rx="8" ry="10"/>
+            <ellipse class="cls-10" cx="8" cy="10" rx="7.25" ry="9.25"/>
+          </g>
+          <path id="패스_10564" data-name="패스 10564" class="cls-3" d="M-5188,13609.468s-3.539,3.905-.3,9.948.3,9.138.3,9.138" transform="translate(5706 -12550)"/>
+        </g>
+      </g>
+      <g id="그룹_30524" data-name="그룹 30524" transform="translate(11 -7)">
+        <g id="그룹_30522" data-name="그룹 30522" transform="translate(525 1058)">
+          <ellipse id="타원_1074" data-name="타원 1074" class="cls-5" cx="19" cy="19" rx="19" ry="19" transform="translate(0)"/>
+          <ellipse id="타원_1075" data-name="타원 1075" class="cls-6" cx="15.08" cy="15.08" rx="15.08" ry="15.08" transform="translate(3.92 3.92)"/>
+        </g>
+        <g id="그룹_30523" data-name="그룹 30523" transform="translate(533.671 1062)">
+          <text id="W" class="cls-7" transform="translate(1 22.658)"><tspan x="0" y="0">W</tspan></text>
+          <rect id="사각형_30927" data-name="사각형 30927" width="20" height="2" transform="translate(0 13.646)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

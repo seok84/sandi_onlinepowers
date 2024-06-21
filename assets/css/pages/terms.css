@@ -1,0 +1,101 @@
+#terms .form_line.select_wrap,
+#terms .terms_wrap dl,
+#policy .form_line.select_wrap,
+#policy .terms_wrap dl {
+    margin-bottom: 4rem;
+}
+
+.terms_wrap table {
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+.terms_wrap {
+    text-align: left;
+}
+
+.terms_wrap .btn-default {
+    border-color: var(--color-line-04);
+    font: inherit;
+    width: auto;
+    padding: 0 1.6rem;
+    line-height: 1;
+    height: 5.4rem;
+}
+
+.terms_wrap .btn-default:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.terms_wrap dt {
+    margin: 2rem 0;
+    font-size: var(--size-pc-main);
+    font-weight: 500;
+    color: var(--color-font-01);
+}
+
+.terms_wrap dd {
+    font-size: var(--size-pc-pri);
+    line-height: 1.6;
+    color: var(--color-font-02);
+    margin-bottom: 2rem;
+}
+
+.terms_wrap table,
+.terms_wrap table th,
+.terms_wrap table td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.terms_wrap table,
+.terms_wrap table th,
+.terms_wrap table td {
+    border: 1px solid #000;
+}
+
+.terms_wrap table th,
+.terms_wrap table td {
+    line-height: 1.45;
+    padding: 1rem 1.6rem;
+}
+
+.terms_wrap table th {
+    text-align: center;
+    font-weight: 400;
+}
+.terms_wrap table td {
+    text-align: left;
+    height: 6rem;
+    vertical-align: middle;
+}
+
+.terms_wrap dd.tit {
+    margin-bottom: 0.6rem;
+}
+
+.terms_wrap dd.sub {
+    font-size: var(--size-pc-sub-txt);
+    color: var(--color-font-03);
+    line-height: 1.57;
+    padding-left: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.terms_wrap dd.sub2 {
+    padding-left: 2rem;
+    margin-top: -2rem;
+}
+
+.terms_wrap dd.dd_accent {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.terms_wrap .btn-default:not(.vendor_list) {
+    display: none;
+}
+
+.terms_wrap .btn-default.vendor_list {
+    margin-left: 0;
+}

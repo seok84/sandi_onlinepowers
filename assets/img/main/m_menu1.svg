@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="53.83" viewBox="0 0 56 53.83">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d9ff00"/>
+      <stop offset="1" stop-color="#93e32b"/>
+    </linearGradient>
+    <filter id="패스_4395" x="0" y="5.83" width="56" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="사각형_26355" data-name="사각형 26355" width="19.506" height="17.555" fill="none" stroke="#88c835" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_31715" data-name="그룹 31715" transform="translate(16 -662)">
+    <rect id="사각형_27304" data-name="사각형 27304" width="44" height="44" transform="translate(-10 662)" fill="rgba(255,213,213,0)" opacity="0.41"/>
+    <g id="그룹_23865" data-name="그룹 23865" transform="translate(-44 66.52)">
+      <g transform="matrix(1, 0, 0, 1, 28, 595.48)" filter="url(#패스_4395)">
+        <path id="패스_4395-2" data-name="패스 4395" d="M3.167,0H34.833L38,30H0Z" transform="translate(9 11.83)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="마스크_그룹_84" data-name="마스크 그룹 84" transform="translate(47 597.48)" clip-path="url(#clip-path)">
+        <g id="패스_4396" data-name="패스 4396" fill="none">
+          <path d="M9.753,0a9.753,9.753,0,0,1,9.753,9.753v7.8A9.753,9.753,0,1,1,0,17.555v-7.8A9.753,9.753,0,0,1,9.753,0Z" stroke="none"/>
+          <path d="M 9.752842903137207 2 C 5.477912902832031 2 2.000003814697266 5.477910995483398 2.000003814697266 9.752840042114258 L 2.000003814697266 17.55512046813965 C 2.000003814697266 21.83005142211914 5.477912902832031 25.30796051025391 9.752842903137207 25.30796051025391 C 14.02777290344238 25.30796051025391 17.50568389892578 21.83005142211914 17.50568389892578 17.55512046813965 L 17.50568389892578 9.752840042114258 C 17.50568389892578 5.477910995483398 14.02777290344238 2 9.752842903137207 2 M 9.752842903137207 0 C 15.13919258117676 0 19.50568199157715 4.366500854492188 19.50568199157715 9.752840042114258 L 19.50568199157715 17.55512046813965 C 19.50568199157715 22.94145965576172 15.13919258117676 27.30796051025391 9.752842903137207 27.30796051025391 C 4.366493225097656 27.30796051025391 3.814697265625e-06 22.94145965576172 3.814697265625e-06 17.55512046813965 L 3.814697265625e-06 9.752840042114258 C 3.814697265625e-06 4.366500854492188 4.366493225097656 0 9.752842903137207 0 Z" stroke="none" fill="#88c835"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

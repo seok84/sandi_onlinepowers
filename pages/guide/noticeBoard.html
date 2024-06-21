@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="../../../../favicon.ico" />
+    <link rel="stylesheet" href="./temporary/css/reset.css" />
+    <link rel="stylesheet" href="./temporary/css/common.css" />
+    <link rel="stylesheet" href="./temporary/css/layout.css" />
+    <link rel="stylesheet" href="./temporary/css/board.css" />
+  </head>
+  <body>
+    <div class="container">
+      
+      <p class="guide_txt">js 사용</p>
+      <!-- js 사용 -->
+      <div class="board_wrap">
+        <div class="board_title">
+          <p style="font-weight: 700; font-size: 3rem;">배송상품</p>
+          <span class="arrow">열기</span>
+        </div>
+        <div class="board_desc">
+          <div class="board_wrap">
+            <div class="board_title">
+              <p>일반상품</p>
+              <span class="arrow">열기</span>
+            </div>
+            <div class="board_desc">
+              <p>
+                군인 또는 군무원이 아닌 국민은 대한민국의 영역안에서는 중대한
+                군사상 기밀·초병·초소·유독음식물공급·포로·군용물에 관한 죄중
+                법률이 정한 경우와 비상계엄이 선포된 경우를 제외하고는
+                군사법원의 재판을 받지 아니한다.
+              </p>
+            </div>
+          </div>
+          <div class="board_wrap">
+            <div class="board_title">
+              <p>냉장상품</p>
+              <span class="arrow">열기</span>
+            </div>
+            <div class="board_desc">
+              <p>
+                군인 또는 군무원이 아닌 국민은 대한민국의 영역안에서는 중대한
+                군사상 기밀·초병·초소·유독음식물공급·포로·군용물에 관한 죄중
+                법률이 정한 경우와 비상계엄이 선포된 경우를 제외하고는
+                군사법원의 재판을 받지 아니한다.
+              </p>
+            </div>
+          </div>
+          <div class="board_wrap">
+            <div class="board_title">
+              <p>냉동상품</p>
+              <span class="arrow">열기</span>
+            </div>
+            <div class="board_desc">
+              <p>
+                군인 또는 군무원이 아닌 국민은 대한민국의 영역안에서는 중대한
+                군사상 기밀·초병·초소·유독음식물공급·포로·군용물에 관한 죄중
+                법률이 정한 경우와 비상계엄이 선포된 경우를 제외하고는
+                군사법원의 재판을 받지 아니한다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="board_wrap">
+        <div class="board_title">
+          <p style="font-weight: 700; font-size: 3rem;">업체배송</p>
+          <span class="arrow">열기</span>
+        </div>
+        <div class="board_desc">
+          <div class="board_wrap">
+            <div class="board_title">
+              <p>일반상품</p>
+              <span class="arrow">열기</span>
+            </div>
+            <div class="board_desc">
+              <p>
+                군인 또는 군무원이 아닌 국민은 대한민국의 영역안에서는 중대한
+                군사상 기밀·초병·초소·유독음식물공급·포로·군용물에 관한 죄중
+                법률이 정한 경우와 비상계엄이 선포된 경우를 제외하고는
+                군사법원의 재판을 받지 아니한다.
+              </p>
+            </div>
+          </div>
+          <div class="board_wrap">
+            <div class="board_title">
+              <p>냉장상품</p>
+              <span class="arrow">열기</span>
+            </div>
+            <div class="board_desc">
+              <p>
+                군인 또는 군무원이 아닌 국민은 대한민국의 영역안에서는 중대한
+                군사상 기밀·초병·초소·유독음식물공급·포로·군용물에 관한 죄중
+                법률이 정한 경우와 비상계엄이 선포된 경우를 제외하고는
+                군사법원의 재판을 받지 아니한다.
+              </p>
+            </div>
+          </div>
+          <div class="board_wrap">
+            <div class="board_title">
+              <p>냉동상품</p>
+              <span class="arrow">열기</span>
+            </div>
+            <div class="board_desc"> 
+              <p>
+                군인 또는 군무원이 아닌 국민은 대한민국의 영역안에서는 중대한
+                군사상 기밀·초병·초소·유독음식물공급·포로·군용물에 관한 죄중
+                법률이 정한 경우와 비상계엄이 선포된 경우를 제외하고는
+                군사법원의 재판을 받지 아니한다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+
+  <script>
+    /* 
+    ////////////////////////////////////////
+    accordion collapsing
+    ////////////////////////////////////////
+    */
+
+    let boardTitle = document.querySelectorAll(".board_title");
+
+    // function toggleBoard(){
+    //   if (boardTitle.classList.contain('open')) {
+    //     boardTitle.classList.remove('open');
+    //   } else {
+    //     boardTitle.classList.add('open');
+    //   }
+    // }
+
+    for (let i = 0; i < boardTitle.length; i++) {
+      boardTitle[i].addEventListener("click", function () {
+        boardTitle[i].classList.toggle("open");
+      });
+    }
+  </script>
+</html>

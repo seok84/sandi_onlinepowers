@@ -1,0 +1,28 @@
+<svg id="구성_요소_168_55" data-name="구성 요소 168 – 55" xmlns="http://www.w3.org/2000/svg" width="23" height="27.578" viewBox="0 0 23 27.578">
+  <g id="그룹_23362" data-name="그룹 23362" transform="translate(-1 4.623)">
+    <g id="그룹_23364" data-name="그룹 23364" transform="translate(1 1.107)">
+      <g id="사각형_27090" data-name="사각형 27090" transform="translate(0 2.847)" fill="#fff" stroke="#000" stroke-width="2">
+        <rect width="23" height="19" stroke="none"/>
+        <rect x="1" y="1" width="21" height="17" fill="none"/>
+      </g>
+      <g id="사각형_27091" data-name="사각형 27091" transform="translate(9.855 2.845)" fill="#fff" stroke="#000" stroke-width="2">
+        <rect width="3" height="19" stroke="none"/>
+        <rect x="1" y="1" width="1" height="17" fill="none"/>
+      </g>
+      <g id="그룹_23725" data-name="그룹 23725" transform="translate(0.635 1)">
+        <g id="패스_4691" data-name="패스 4691" transform="matrix(0.966, 0.259, -0.259, 0.966, -1.133, -5.1)" fill="none">
+          <path d="M14.589,6.082l-5.231-9-4.769,6.4Z" stroke="none"/>
+          <path d="M 14.589111328125 6.082030773162842 L 4.589111328125 3.482160806655884 L 9.357891082763672 -2.917969226837158 L 14.589111328125 6.082030773162842 Z" stroke="none" fill="#000"/>
+        </g>
+        <g id="패스_4692" data-name="패스 4692" transform="matrix(0.966, -0.259, 0.259, 0.966, 4.048, -0.136)" fill="none">
+          <path d="M4.589,6.082l5.231-9,4.769,6.4Z" stroke="none"/>
+          <path d="M 4.589111328125 6.08203125 L 9.820331573486328 -2.91796875 L 14.589111328125 3.482161283493042 L 4.589111328125 6.08203125 Z" stroke="none" fill="#000"/>
+        </g>
+      </g>
+    </g>
+    <g id="사각형_27199" data-name="사각형 27199" transform="translate(22.854 11.953) rotate(90)" fill="#fff" stroke="#000" stroke-width="2">
+      <rect width="3" height="21" stroke="none"/>
+      <rect x="1" y="1" width="1" height="19" fill="none"/>
+    </g>
+  </g>
+</svg>

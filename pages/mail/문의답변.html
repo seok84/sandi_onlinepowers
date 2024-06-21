@@ -1,0 +1,236 @@
+<meta charset="utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{site_name}</title>
+
+<div style="width: 760px; font-family: pretendard-variable, sans-serif; margin: 0 auto; display: block; letter-spacing:-0.02px;">
+    <table style="width: 100%; border: 5px solid #ffb4ec; border-collapse: collapse">
+        <thead>
+            <tr>
+                <td style="padding: 25px 25px 55px">
+                    <h1 style="margin: 0; text-align: left">
+                        <a style="display: block" href="{site_url}" title="{site_name}"
+                            ><img
+                                style="border: 0; display: block; margin: 0 auto"
+                                src="{site_url}/upload/editor/20231102/d138879e-89fa-4c8b-866d-acd084f297d20/editor.png"
+                                alt="{site_name}"
+                        /></a>
+                    </h1>
+                </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td style="padding: 50px 36px 30px; line-height: 18px; text-align: center">
+                    <div style="padding: 20px; background: #FCF8FB; font-size: 14px; color:#959595;">
+                        <p style="margin: 0">본 메일은 발신전용으로 회신되지 않습니다. 문의사항은 고객센터를 이용해 주세요.</p>
+                        <p style="margin: 0">메일수신을 원하지 않을 경우, 홈페이지 로그인 후 회원정보변경에서 e-mail수신여부를 변경해 주세요.</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px 35px; line-height: 18px; color: #959595; text-align: center; letter-spacing: -1px">
+                    <span style="color: #959595; letter-spacing: -1px; text-align: center">상호명 : (주)에스앤아이코퍼레이션</span
+                    ><span style="letter-spacing: -1px; text-align: center; padding: 0px 6px; color: #bbbbbb; font-size: 10px">|</span
+                    ><span style="color: #959595; letter-spacing: -1px; text-align: center">대표자 : 형원준</span
+                    ><br style="color: #959595; letter-spacing: -1px; text-align: center" /><span
+                        style="color: #959595; letter-spacing: -1px; text-align: center"
+                        >주소 : 서울특별시 강서구 마곡중앙로 150 , D&amp;O 강서사옥</span
+                    ><span style="letter-spacing: -1px; text-align: center; padding: 0px 6px; color: #bbbbbb; font-size: 10px">|</span
+                    ><span style="color: #959595; letter-spacing: -1px; text-align: center">사업자등록번호 : 707-86-02404</span
+                    ><br style="color: #959595; letter-spacing: -1px; text-align: center" /><span
+                        style="color: #959595; letter-spacing: -1px; text-align: center"
+                        >통신판매업 신고번호 : 제2021-서울강서-3652호</span
+                    >
+                    <p style="margin: 0">&nbsp;</p>
+                    <p style="margin: 0"><span style="color: #959595; letter-spacing: -1px; text-align: center">대표전화 : 1661-1119</span></p>
+                    <p>&nbsp;</p>
+                    <p style="margin: 7px 0 0 0; color: #b0b0b0">
+                        <span style="color: #b0b0b0" letter-spacing: -1px; text-align: center">Copyright ⓒ S&amp;I Corp. All rights reserved.</span>
+                    </p>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td style="padding: 0 36px; text-align: center">
+                    <h2 style="margin: 0 0 40px; font-size: 38px; line-height: 45px; font-weight: bold; color: #EA27C2">문의 답변이<br />등록되었습니다.</h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px">
+                    <p style="margin: 0 0 11px 0; font-size: 15px; font-weight: bold; color: #4a4a4a">Q&amp;A 문의내용</p>
+                    <table style="width: 100%; margin-bottom: 35px; border-top: 1px solid #FF88E3; border-bottom: 1px solid #ffb4ec; border-collapse: collapse">
+                        <colgroup>
+                            <col style="width: 130px" />
+                            <col style="width: 209px" />
+                            <col style="width: 130px" />
+                            <col style="width: auto" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #FCF8FB;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    작성자
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{user_name}</td>
+
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #FCF8FB;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    작성일
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{created_date}</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #FCF8FB;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    이메일
+                                </th>
+                                <td colspan="3" style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{email}</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #FCF8FB;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    제목
+                                </th>
+                                <td colspan="3" style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{subject}</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="padding: 15px 20px; background: #FCF8FB; color: #333; font-weight: bold; text-align: left; vertical-align: top"
+                                >
+                                    문의내용
+                                </th>
+                                <td colspan="3" style="padding: 15px 20px; line-height: 19px">{question}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="margin: 0 0 11px 0; font-size: 15px; font-weight: bold; color: #4a4a4a">문의답변</p>
+                    <table style="width: 100%; border-top: 1px solid #FF88E3; border-bottom: 1px solid #ffb4ec; border-collapse: collapse">
+                        <colgroup>
+                            <col style="width: 130px" />
+                            <col style="width: 209px" />
+                            <col style="width: 130px" />
+                            <col style="width: auto" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #FCF8FB;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    작성자
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">관리자</td>
+
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #FCF8FB;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    작성일
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{answer_date}</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #FCF8FB;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    답변제목
+                                </th>
+                                <td colspan="3" style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{title}</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="padding: 15px 20px; background: #FCF8FB; color: #333; font-weight: bold; text-align: left; vertical-align: top"
+                                >
+                                    답변내용
+                                </th>
+                                <td colspan="3" style="padding: 15px 20px; line-height: 19px">{answer}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="margin: 20px 0 0 0; text-align: center">
+                        <a
+                            href="#"
+                            title="나의 1:1문의 내역보기"
+                            style="
+                                display: inline-block;
+                                width: 210px;
+                                height: 56px;
+                                line-height: 54px;
+                                background: #EA27C2;
+                                font-size: 17px;
+                                color: #fff;
+                                font-weight: bold;
+                                text-align: center;
+                                text-decoration: none;
+                            "
+                            >문의 내역보기</a
+                        >
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

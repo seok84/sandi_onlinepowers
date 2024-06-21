@@ -1,0 +1,16 @@
+<svg id="구성_요소_1920_1" data-name="구성 요소 1920 – 1" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_30977" data-name="사각형 30977" class="cls-1" width="30" height="30"/>
+  <path id="패스_10782" data-name="패스 10782" class="cls-2" d="M6662.7,124.25l5,5-5,5" transform="translate(-6650.203 -113.75)"/>
+</svg>

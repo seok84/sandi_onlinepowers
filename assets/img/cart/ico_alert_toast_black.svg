@@ -1,0 +1,25 @@
+<svg id="구성_요소_1603_1" data-name="구성 요소 1603 – 1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="사각형_25248" data-name="사각형 25248" class="cls-1">
+    <rect class="cls-2" width="20" height="20" rx="10"/>
+    <rect class="cls-3" x="0.5" y="0.5" width="19" height="19" rx="9.5"/>
+  </g>
+  <g id="그룹_21300" data-name="그룹 21300" transform="translate(9.217 4.667)">
+    <path id="패스_7784" data-name="패스 7784" d="M37,986.126a.681.681,0,1,0,.682.681A.681.681,0,0,0,37,986.126Z" transform="translate(-36.319 -976.809)"/>
+    <rect id="사각형_26102" data-name="사각형 26102" width="1.333" height="8" rx="0.667"/>
+  </g>
+</svg>

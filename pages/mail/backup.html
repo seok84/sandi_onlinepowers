@@ -1,0 +1,1157 @@
+<meta charset="utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{stie_name}</title>
+
+<div style="width: 760px">
+    <p style="text-align: center"><img src="/upload/editor/20231102/d138879e-89fa-4c8b-866d-acd084f297d20/editor.png" alt="" /></p>
+    <p style="text-align: center">&nbsp;</p>
+    <table style="width: 100%; border: 5px solid #d6d6d6; border-collapse: collapse">
+        <thead>
+            <tr>
+                <td style="padding: 25px 25px 55px">
+                    <h1 style="margin: 0; text-align: left">
+                        <a style="display: block" href="{site_url}" title="SALESON"
+                            ><img style="border: 0" src="{site_url}/content/image/mail/mail_logo.gif" alt="{site_name}"
+                        /></a>
+                    </h1>
+                </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td style="padding: 50px 36px 30px; line-height: 18px; text-align: center">
+                    <div style="padding: 20px; background: #f5f5f5">
+                        <p style="margin: 0">본 메일은 발신전용으로 회신되지 않습니다. 문의사항은 고객센터를 이용해 주세요.</p>
+                        <p style="margin: 0">메일수신을 원하지 않을 경우, 홈페이지 로그인 후 회원정보변경에서 e-mail수신여부를 변경해 주세요.</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px 35px; line-height: 18px; color: #959595; text-align: center; font-family: 'Gulim', '굴림'; letter-spacing: -1px">
+                    <p style="margin: 0">
+                        상호명 : (주)에스앤아이코퍼레이션<span style="padding: 0px 6px; color: #bbb; font-size: 10px">|</span>대표자 : 형원준<br />주소 :
+                        서울특별시 강서구 마곡중앙로 150, D&amp;O 강서사옥<span style="padding: 0px 6px; color: #bbb; font-size: 10px">|</span>사업자등록번호 :
+                        707-86-02404<br />통신판매업 신고번호 : 제2021-서울강서-3652호
+                    </p>
+                    <p style="margin: 0">대표전화 : 1661-1119</p>
+                    <p>&nbsp;</p>
+                    <p style="margin: 7px 0 0 0; color: #b0b0b0">
+                        <span style="font-size: 10pt">Copyright ⓒ S&amp;I Corp. </span><span style="font-size: 10pt">All </span
+                        ><span style="font-size: 10pt">rights reserved.</span>
+                    </p>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td style="padding: 0 36px; text-align: center">
+                    <h2 style="margin: 0 0 40px; font-size: 38px; line-height: 45px; font-weight: bold; color: #1c2957">
+                        고객님의 주문이<br />정상적으로 완료되었습니다.
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px">
+                    <ul style="margin: 0; padding: 30px 0; background: #f7f7f7; font-size: 14px; color: #4c4c4c; text-align: center; list-style: none">
+                        <li style="display: inline-block">주문번호 : <span style="font-weight: bold">{order_code}</span></li>
+                        <li style="display: inline-block; margin-left: 45px">주문일자 : <span style="font-weight: bold">{order_date}</span></li>
+                        <li style="display: inline-block; margin-left: 45px">주문상태 : <span style="font-weight: bold; color: #000">입금대기</span></li>
+                    </ul>
+                    <p style="margin: 40px 0 0 0; font-size: 15px; font-weight: bold; color: #4a4a4a">주문상품 정보</p>
+                    {order_detail_list}
+                    <p style="margin: 40px 0 0 0; font-size: 15px; font-weight: bold; color: #4a4a4a">입금은행 정보</p>
+                    <table style="width: 100%; margin-top: 10px; border-top: 1px solid #666; border-bottom: 1px solid #ccc; border-collapse: collapse">
+                        <colgroup>
+                            <col style="width: 130px" />
+                            <col style="width: auto" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #f7f7f7;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    입금은행정보
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{bank_virtual_no}</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #f7f7f7;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    입금예정금액
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{bank_amount}원</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #f7f7f7;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    입금자명
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{bank_in_name}</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="padding: 15px 20px; background: #f7f7f7; color: #333; font-weight: bold; text-align: left">입금기한</th>
+                                <td style="padding: 15px 20px">{bank_date}까지 입금하세요.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div style="margin: 20px 0 0 0; text-align: center">
+                        <a
+                            href="{site_url}"
+                            title="주문/배송조회"
+                            style="
+                                display: inline-block;
+                                width: 210px;
+                                height: 56px;
+                                line-height: 54px;
+                                background: #333;
+                                font-size: 17px;
+                                color: #fff;
+                                font-weight: bold;
+                                text-align: center;
+                                text-decoration: none;
+                            "
+                            >주문/배송조회</a
+                        >
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr />
+<meta charset="utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{stie_name}</title>
+
+<div style="width: 760px">
+    <table style="width: 100%; border: 5px solid #d6d6d6; border-collapse: collapse">
+        <thead>
+            <tr>
+                <td style="padding: 25px 25px 55px">
+                    <h1 style="margin: 0; text-align: left">
+                        <a style="display: block" href="#" title="{site_name}"
+                            ><img style="border: 0" src="{site_url}/content/image/mail/mail_logo.gif" alt="{site_name}"
+                        /></a>
+                    </h1>
+                </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td style="padding: 50px 36px 30px; line-height: 18px; text-align: center">
+                    <div style="padding: 20px; background: #f5f5f5">
+                        <p style="margin: 0">본 메일은 발신전용으로 회신되지 않습니다. 문의사항은 고객센터를 이용해 주세요.</p>
+                        <p style="margin: 0">메일수신을 원하지 않을 경우, 홈페이지 로그인 후 회원정보변경에서 e-mail수신여부를 변경해 주세요.</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px 35px; line-height: 18px; color: #959595; text-align: center; font-family: 'Gulim', '굴림'; letter-spacing: -1px">
+                    <p style="margin: 0">
+                        상호명 : (주)<span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >에스앤아이코퍼레이션</span
+                        ><span style="padding: 0px 6px; color: #bbb; font-size: 10px">|</span>대표자 :
+                        <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">형원준</span><br />주소 :
+                        <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >서울특별시 강서구 마곡중앙로 150 , D&amp;O 강서사옥</span
+                        ><span style="padding: 0px 6px; color: #bbb; font-size: 10px">|</span>사업자등록번호 :&nbsp;<span
+                            style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >707-86-02404</span
+                        >
+                    </p>
+                    <p style="margin: 0">
+                        <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >통신판매업 신고번호 : 제2021-서울강서-3652호</span
+                        >
+                    </p>
+                    <p style="margin: 0">
+                        <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표전화 : 1661-1119</span>
+                    </p>
+                    <p>&nbsp;</p>
+                    <p style="margin: 7px 0 0 0; color: #b0b0b0">
+                        <span style="color: rgb(176, 176, 176); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >Copyright ⓒ S&amp;I Corp. All rights reserved.</span
+                        >
+                    </p>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td style="padding: 0 36px; text-align: center">
+                    <h2 style="margin: 0 0 40px; font-size: 38px; line-height: 45px; font-weight: bold; color: #1c2957">
+                        고객님의 주문이<br />정상적으로 결제되었습니다.
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px">
+                    <ul style="margin: 0; padding: 30px 0; background: #f7f7f7; font-size: 14px; color: #4c4c4c; text-align: center; list-style: none">
+                        <li style="display: inline-block">주문번호 : <span style="font-weight: bold">{order_code}</span></li>
+                        <li style="display: inline-block; margin-left: 45px">주문일자 : <span style="font-weight: bold">{order_date}</span></li>
+                        <li style="display: inline-block; margin-left: 45px">주문상태 : <span style="font-weight: bold; color: #000">결제완료</span></li>
+                    </ul>
+                    <p style="margin: 40px 0 0 0; font-size: 15px; font-weight: bold; color: #4a4a4a">주문상품 정보</p>
+                    {order_detail_list}
+
+                    <p style="margin: 40px 0 0 0; font-size: 15px; font-weight: bold; color: #4a4a4a">결제내역</p>
+                    {order_item_payment}
+
+                    <div style="margin: 20px 0 0 0; text-align: center">
+                        <a
+                            href="{site_url}"
+                            title="주문/배송조회"
+                            style="
+                                display: inline-block;
+                                width: 210px;
+                                height: 56px;
+                                line-height: 54px;
+                                background: #333;
+                                font-size: 17px;
+                                color: #fff;
+                                font-weight: bold;
+                                text-align: center;
+                                text-decoration: none;
+                            "
+                            >주문/배송조회</a
+                        >
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<hr />
+<meta charset="utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{stie_name}</title>
+
+<div style="width: 760px">
+    <table style="width: 100%; border: 5px solid #d6d6d6; border-collapse: collapse">
+        <thead>
+            <tr>
+                <td style="padding: 25px 25px 55px">
+                    <h1 style="margin: 0; text-align: left">
+                        <a style="display: block" href="{site_url}" title="{site_name}"
+                            ><img style="border: 0" src="{site_url}/content/image/mail/mail_logo.gif" alt="{site_name}"
+                        /></a>
+                    </h1>
+                </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td style="padding: 50px 36px 30px; line-height: 18px; text-align: center">
+                    <div style="padding: 20px; background: #f5f5f5">
+                        <p style="margin: 0">본 메일은 발신전용으로 회신되지 않습니다. 문의사항은 고객센터를 이용해 주세요.</p>
+                        <p style="margin: 0">메일수신을 원하지 않을 경우, 홈페이지 로그인 후 회원정보변경에서 e-mail수신여부를 변경해 주세요.</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px 35px; line-height: 18px; color: #959595; text-align: center; font-family: 'Gulim', '굴림'; letter-spacing: -1px">
+                    <p style="margin: 0">
+                        <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >상호명 : (주)에스앤아이코퍼레이션</span
+                        ><span
+                            style="
+                                font-family: Gulim, 굴림;
+                                letter-spacing: -1px;
+                                text-align: center;
+                                padding: 0px 6px;
+                                color: rgb(187, 187, 187);
+                                font-size: 10px;
+                            "
+                            >|</span
+                        ><span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표자 : 형원준</span
+                        ><!--<span style="padding:0px 6px; color:#bbb; font-size:10px">|</span>--><br /><span
+                            style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >주소 : 서울특별시 강서구 마곡중앙로 150 , D&amp;O 강서사옥</span
+                        ><span
+                            style="
+                                font-family: Gulim, 굴림;
+                                letter-spacing: -1px;
+                                text-align: center;
+                                padding: 0px 6px;
+                                color: rgb(187, 187, 187);
+                                font-size: 10px;
+                            "
+                            >|</span
+                        ><span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >사업자등록번호 : 707-86-02404</span
+                        >
+                    </p>
+                    <p style="margin: 0">
+                        <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >통신판매업 신고번호 : 제2021-서울강서-3652호</span
+                        >
+                    </p>
+                    <p style="margin: 0">
+                        <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표전화 : 1661-1119</span>
+                    </p>
+                    <p>&nbsp;</p>
+                    <p style="margin: 7px 0 0 0; color: #b0b0b0">
+                        <span style="color: rgb(176, 176, 176); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >Copyright ⓒ S&amp;I Corp. All rights reserved.</span
+                        >
+                    </p>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td style="padding: 0 36px; text-align: center">
+                    <h2 style="margin: 0 0 40px; font-size: 38px; line-height: 45px; font-weight: bold; color: #1c2957">
+                        고객님의 주문한 상품이<br />정상적으로 발송되었습니다.
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px">
+                    <ul style="margin: 0; padding: 30px 0; background: #f7f7f7; font-size: 14px; color: #4c4c4c; text-align: center; list-style: none">
+                        <li style="display: inline-block">주문번호 : <span style="font-weight: bold">{order_code}</span></li>
+                        <li style="display: inline-block; margin-left: 45px">주문일자 : <span style="font-weight: bold">{order_date}</span></li>
+                        <li style="display: inline-block; margin-left: 45px">주문상태 : <span style="font-weight: bold; color: #000">배송중</span></li>
+                    </ul>
+                    <p style="margin: 40px 0 0 0; font-size: 15px; font-weight: bold; color: #4a4a4a">주문상품 정보</p>
+                    {order_detail_list}
+                    <p style="margin: 40px 0 0 0; font-size: 15px; font-weight: bold; color: #4a4a4a">결제내역</p>
+                    {order_item_payment}
+                    <div style="margin: 20px 0 0 0; text-align: center">
+                        <a
+                            href="{site_url}"
+                            title="주문/배송조회"
+                            style="
+                                display: inline-block;
+                                width: 210px;
+                                height: 56px;
+                                line-height: 54px;
+                                background: #333;
+                                font-size: 17px;
+                                color: #fff;
+                                font-weight: bold;
+                                text-align: center;
+                                text-decoration: none;
+                            "
+                            >주문/배송조회</a
+                        >
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<hr />
+<meta charset="utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{site_name}</title>
+
+<div style="width: 760px">
+    <table style="width: 100%; border: 5px solid #d6d6d6; border-collapse: collapse">
+        <thead>
+            <tr>
+                <td style="padding: 25px 25px 55px">
+                    <h1 style="margin: 0; text-align: left">
+                        <a style="display: block" href="#" title="{site_name}"
+                            ><img style="border: 0" src="{site_url}/content/image/mail/mail_logo.gif" alt="{site_name}"
+                        /></a>
+                    </h1>
+                </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td style="padding: 50px 36px 30px; line-height: 18px; text-align: center">
+                    <div style="padding: 20px; background: #f5f5f5">
+                        <p style="margin: 0">본 메일은 발신전용으로 회신되지 않습니다. 문의사항은 고객센터를 이용해 주세요.</p>
+                        <p style="margin: 0">메일수신을 원하지 않을 경우, 홈페이지 로그인 후 회원정보변경에서 e-mail수신여부를 변경해 주세요.</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px 35px; line-height: 18px; color: #959595; text-align: center; font-family: 'Gulim', '굴림'; letter-spacing: -1px">
+                    <p style="margin: 0">
+                        상<span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >상호명 : (주)에스앤아이코퍼레이션</span
+                        ><span
+                            style="
+                                font-family: Gulim, 굴림;
+                                letter-spacing: -1px;
+                                text-align: center;
+                                padding: 0px 6px;
+                                color: rgb(187, 187, 187);
+                                font-size: 10px;
+                            "
+                            >|</span
+                        ><span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표자 : 형원준</span>
+                        <!--<span style="padding:0px 6px; color:#bbb; font-size:10px">|</span>-->&nbsp;
+                    </p>
+                    <p style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">
+                        주소 : 서울특별시 강서구 마곡중앙로 150 , D&amp;O 강서사옥 ㅣ 사업자등록번호 : 707-86-02404<br />통신판매업 신고번호 :
+                        제2021-서울강서-3652호
+                    </p>
+                    <p style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표전화 : 1661-1119</p>
+                    <p style="margin: 0">&nbsp;</p>
+                    <p style="margin: 0">&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p style="margin: 7px 0 0 0; color: #b0b0b0">
+                        <span style="color: rgb(176, 176, 176); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >Copyright ⓒ S&amp;I Corp. All rights reserved.</span
+                        >
+                    </p>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td style="padding: 0 36px; text-align: center">
+                    <h2 style="margin: 0; font-size: 38px; line-height: 45px; font-weight: bold; color: #1c2957">이달 포인트 소멸예정 안내 메일입니다.</h2>
+                    <p style="margin: 15px 0 40px; font-size: 14px; line-height: 20px; color: #808080">
+                        고객님이 보유하고 계신 혜택들이 소멸될 예정임을 알려드립니다.<br />아래 내역을 확인하신 후, 소멸기간 전에 혜택들을 누리세요!
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px">
+                    <div
+                        style="
+                            padding: 28px 0;
+                            border-top: 1px solid #666;
+                            border-bottom: 1px solid #ccc;
+                            background: #f7f7f7;
+                            color: #4c4c4c;
+                            text-align: center;
+                        "
+                    >
+                        <p style="margin: 0 0 16px; font-size: 15px; font-weight: bold">{name} 고객님, 안녕하세요!</p>
+                        <p style="margin: 0; font-size: 13px; line-height: 21px">
+                            고객님께서 보유하고 계신 혜택 중 <span style="color: #000">사용하지 않은 포인트들이 소멸될 예정</span>입니다.<br />
+                            고객님의 포인트가 자동소멸 되는 일이 없도록 소멸일자 전에 사용하시기 바랍니다.<br />
+                            포인트는 상품주문 시 쿠폰과 함께 이용한도 내에서 보조결제수단으로 사용하실 수 있습니다.
+                        </p>
+                    </div>
+                    <p style="margin: 40px 0 11px 0; font-size: 15px; font-weight: bold; color: #4c4c4c">소멸 대상 혜택</p>
+                    <ul style="margin: 0; padding: 18px 30px; font-size: 13px; color: #4c4c4c; background: #f7f7f7; line-height: 24px; list-style: none">
+                        <li><span style="color: #000; font-weight: bold">{expiration_content}</span></li>
+                        <li>- 최초 소멸 일자 : <span style="color: #000; font-weight: bold">{expiration_date}</span></li>
+                    </ul>
+                    <p style="margin: 8px 0 0; color: #808080">
+                        본 메일은 <span style="color: rgb(51, 51, 51); font-weight: 700; background-color: rgb(248, 248, 248)">{search_date}</span> 조회를
+                        기준으로 안내 드립니다.
+                    </p>
+                    <div style="margin: 20px 0 0 0; text-align: center">
+                        <a
+                            href="#"
+                            title="{site_name} 방문하기"
+                            style="
+                                display: inline-block;
+                                width: 190px;
+                                height: 56px;
+                                line-height: 54px;
+                                background: #333;
+                                font-size: 17px;
+                                color: #fff;
+                                font-weight: bold;
+                                text-align: center;
+                                text-decoration: none;
+                            "
+                            >{site_name} 방문하기</a
+                        >
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr />
+<meta charset="utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{site_name}</title>
+
+<div style="width: 760px">
+    <table style="width: 100%; border: 5px solid #d6d6d6; border-collapse: collapse">
+        <thead>
+            <tr>
+                <td style="padding: 25px 25px 60px">
+                    <h1 style="margin: 0; text-align: left">
+                        <a style="display: block" href="{site_url}" title="{site_name}"
+                            ><img style="border: 0" src="{site_url}/static/images/mail/mail_logo.gif" alt="{site_name}"
+                        /></a>
+                    </h1>
+                </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td style="padding: 50px 36px 30px; line-height: 18px; text-align: center">
+                    <div style="padding: 20px; background: #f5f5f5">
+                        <p style="margin: 0">본 메일은 발신전용으로 회신되지 않습니다. 문의사항은 고객센터를 이용해 주세요.</p>
+                        <p style="margin: 0">메일수신을 원하지 않을 경우, 홈페이지 로그인 후 회원정보변경에서 e-mail수신여부를 변경해 주세요.</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px 35px; line-height: 18px; color: #959595; text-align: center; font-family: 'Gulim', '굴림'; letter-spacing: -1px">
+                    <p style="margin: 0">
+                        상<span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >상호명 : (주)에스앤아이코퍼레이션</span
+                        ><span
+                            style="
+                                font-family: Gulim, 굴림;
+                                letter-spacing: -1px;
+                                text-align: center;
+                                padding: 0px 6px;
+                                color: rgb(187, 187, 187);
+                                font-size: 10px;
+                            "
+                            >|</span
+                        ><span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표자 : 형원준</span
+                        ><br style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center" /><span
+                            style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >주소 : 서울특별시 강서구 마곡중앙로 150 , D&amp;O 강서사옥</span
+                        ><span
+                            style="
+                                font-family: Gulim, 굴림;
+                                letter-spacing: -1px;
+                                text-align: center;
+                                padding: 0px 6px;
+                                color: rgb(187, 187, 187);
+                                font-size: 10px;
+                            "
+                            >|</span
+                        ><span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >사업자등록번호 : 707-86-02404</span
+                        ><br style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center" /><span
+                            style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >통신판매업 신고번호 : 제2021-서울강서-3652호</span
+                        >
+                    </p>
+                    <p style="margin: 0">&nbsp;</p>
+                    <p style="margin: 0">
+                        <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표전화 : 1661-1119</span>
+                    </p>
+                    <p>&nbsp;</p>
+                    <p style="margin: 7px 0 0 0; color: #b0b0b0">
+                        <span style="color: rgb(176, 176, 176); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >Copyright ⓒ S&amp;I Corp. All rights reserved.</span
+                        >
+                    </p>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td style="padding: 0 36px; text-align: center">
+                    <h2 style="margin: 0; font-size: 38px; line-height: 38px; font-weight: bold; color: #1c2957">회원가입을 축하드립니다!</h2>
+                    <p style="margin: 15px 0 40px; font-size: 14px; line-height: 20px; color: #808080">
+                        고객님께서 만족스러운 쇼핑을 하실 수 있도록 노력하겠습니다.<br />지금부터
+                        <span style="color: rgb(51, 51, 51); font-weight: 700; background-color: rgb(248, 248, 248)">{site_name}</span>에서 고객님만의 특별한
+                        혜택을 누리세요.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px">
+                    <p style="margin: 0 0 11px 0; font-size: 15px; font-weight: bold; color: #4a4a4a">
+                        <span style="color: #23ade3"
+                            ><span style="color: rgb(51, 51, 51); font-weight: 700; background-color: rgb(248, 248, 248)">{name}</span></span
+                        >님의 가입정보
+                    </p>
+                    <table style="width: 100%; border-top: 1px solid #666; border-bottom: 1px solid #ccc; border-collapse: collapse">
+                        <colgroup>
+                            <col style="width: 130px" />
+                            <col style="width: auto" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #f7f7f7;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    아이디
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">
+                                    <span style="color: rgb(51, 51, 51); font-weight: 700; background-color: rgb(248, 248, 248)">{id}</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="padding: 15px 20px; background: #f7f7f7; color: #333; font-weight: bold; text-align: left">가입날짜</th>
+                                <td style="padding: 15px 20px">
+                                    <span style="color: rgb(51, 51, 51); font-weight: 700; background-color: rgb(248, 248, 248)">{regdate}</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="margin: 20px 0 0 0; text-align: center">
+                        <a
+                            href="#"
+                            title="세일즈온 방문하기"
+                            style="
+                                display: inline-block;
+                                width: 190px;
+                                height: 56px;
+                                line-height: 54px;
+                                background: #333;
+                                font-size: 17px;
+                                color: #fff;
+                                font-weight: bold;
+                                text-align: center;
+                                text-decoration: none;
+                            "
+                            >&nbsp;{site_name} 방문하기</a
+                        >
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<hr />
+<meta charset="utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{site_name}</title>
+
+<div style="width: 760px">
+    <table style="width: 100%; border: 5px solid #d6d6d6; border-collapse: collapse">
+        <thead>
+            <tr>
+                <td style="padding: 25px 25px 55px">
+                    <h1 style="margin: 0; text-align: left">
+                        <a style="display: block" href="{site_url}" title="{site_name}"
+                            ><img style="border: 0" src="{site_url}/static/images/mail/mail_logo.gif" alt="{site_name}"
+                        /></a>
+                    </h1>
+                </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td style="padding: 50px 36px 30px; line-height: 18px; text-align: center">
+                    <div style="padding: 20px; background: #f5f5f5">
+                        <p style="margin: 0">본 메일은 발신전용으로 회신되지 않습니다. 문의사항은 고객센터를 이용해 주세요.</p>
+                        <p style="margin: 0">메일수신을 원하지 않을 경우, 홈페이지 로그인 후 회원정보변경에서 e-mail수신여부를 변경해 주세요.</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px 35px; line-height: 18px; color: #959595; text-align: center; font-family: 'Gulim', '굴림'; letter-spacing: -1px">
+                    <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >상호명 : (주)에스앤아이코퍼레이션</span
+                    ><span
+                        style="font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center; padding: 0px 6px; color: rgb(187, 187, 187); font-size: 10px"
+                        >|</span
+                    ><span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표자 : 형원준</span
+                    ><br style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center" /><span
+                        style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >주소 : 서울특별시 강서구 마곡중앙로 150, D&amp;O 강서사옥</span
+                    ><span
+                        style="font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center; padding: 0px 6px; color: rgb(187, 187, 187); font-size: 10px"
+                        >|</span
+                    ><span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >사업자등록번호 : 707-86-02404</span
+                    ><br style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center" /><span
+                        style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >통신판매업 신고번호 : 제2021-서울강서-3652호</span
+                    >
+                    <p style="margin: 0">&nbsp;</p>
+                    <p style="margin: 0">
+                        <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표전화 : 1661-1119</span>
+                    </p>
+                    <p>&nbsp;</p>
+                    <p style="margin: 7px 0 0 0; color: #b0b0b0">
+                        C<span style="color: rgb(176, 176, 176); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >Copyright ⓒ S&amp;I Corp. All rights reserved.</span
+                        >
+                    </p>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td style="padding: 0 36px; text-align: center">
+                    <h2 style="margin: 0 0 40px; font-size: 38px; line-height: 45px; font-weight: bold; color: #000">회원비밀번호가<br />변경되었습니다.</h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px">
+                    <div
+                        style="
+                            padding: 31px 109px;
+                            border-top: 1px solid #666;
+                            border-bottom: 1px solid #ccc;
+                            background: #f7f7f7;
+                            font-weight: bold;
+                            text-align: center;
+                        "
+                    >
+                        <p style="margin: 0 0 20px; font-size: 15px; color: #4c4c4c">
+                            <span style="color: rgb(51, 51, 51); font-weight: 700; background-color: rgb(248, 248, 248)">{name}&nbsp;</span>고객님의 임시
+                            비밀번호입니다.
+                        </p>
+                        <span style="display: inline-block; width: 460px; padding: 22px 0; background: #fff; color: #23ade3; font-size: 24px"
+                            ><span style="color: rgb(51, 51, 51); font-weight: 700; background-color: rgb(248, 248, 248)">{find_pw}</span></span
+                        >
+                    </div>
+                    <p style="margin: 12px 0 0 0; color: #808080">임시 비밀번호를 발급 한 후에는 로그인 후 비밀번호를 한번 더 변경하세요.</p>
+                    <div style="margin: 20px 0 0 0; text-align: center">
+                        <a
+                            href="#"
+                            title="세일즈온 방문하기"
+                            style="
+                                display: inline-block;
+                                width: 190px;
+                                height: 56px;
+                                line-height: 54px;
+                                background: #333;
+                                font-size: 17px;
+                                color: #fff;
+                                font-weight: bold;
+                                text-align: center;
+                                text-decoration: none;
+                            "
+                            ><span style="color: rgb(51, 51, 51); font-weight: 700; background-color: rgb(248, 248, 248)">{site_name}</span> 방문하기</a
+                        >
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr />
+<meta charset="utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{site_name}</title>
+
+<div style="width: 760px">
+    <table style="width: 100%; border: 5px solid #d6d6d6; border-collapse: collapse">
+        <thead>
+            <tr>
+                <td style="padding: 25px 25px 55px">
+                    <h1 style="margin: 0; text-align: left">
+                        <a style="display: block" href="{site_url}" title="{site_name}"
+                            ><img style="border: 0" src="{site_url}/static/images/mail/mail_logo.gif" alt="{site_name}"
+                        /></a>
+                    </h1>
+                </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td style="padding: 50px 36px 30px; line-height: 18px; text-align: center">
+                    <div style="padding: 20px; background: #f5f5f5">
+                        <p style="margin: 0">본 메일은 발신전용으로 회신되지 않습니다. 문의사항은 고객센터를 이용해 주세요.</p>
+                        <p style="margin: 0">메일수신을 원하지 않을 경우, 홈페이지 로그인 후 회원정보변경에서 e-mail수신여부를 변경해 주세요.</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px 35px; line-height: 18px; color: #959595; text-align: center; font-family: 'Gulim', '굴림'; letter-spacing: -1px">
+                    <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >상호명 : (주)에스앤아이코퍼레이션</span
+                    ><span
+                        style="font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center; padding: 0px 6px; color: rgb(187, 187, 187); font-size: 10px"
+                        >|</span
+                    ><span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표자 : 형원준</span
+                    ><br style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center" /><span
+                        style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >주소 : 서울특별시 강서구 마곡중앙로 150 , D&amp;O 강서사옥</span
+                    ><span
+                        style="font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center; padding: 0px 6px; color: rgb(187, 187, 187); font-size: 10px"
+                        >|</span
+                    ><span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >사업자등록번호 : 707-86-02404</span
+                    ><br style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center" /><span
+                        style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >통신판매업 신고번호 : 제2021-서울강서-3652호</span
+                    >
+                    <p style="margin: 0">&nbsp;</p>
+                    <p style="margin: 0">
+                        <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표전화 : 1661-1119</span>
+                    </p>
+                    <p>&nbsp;</p>
+                    <p style="margin: 7px 0 0 0; color: #b0b0b0">
+                        <span style="color: rgb(176, 176, 176); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >Copyright ⓒ S&amp;I Corp. All rights reserved.</span
+                        >
+                    </p>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td style="padding: 0 36px; text-align: center">
+                    <h2 style="margin: 0 0 40px; font-size: 38px; line-height: 45px; font-weight: bold; color: #000">문의 답변이<br />등록되었습니다.</h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px">
+                    <p style="margin: 0 0 11px 0; font-size: 15px; font-weight: bold; color: #4a4a4a">Q&amp;A 문의내용</p>
+                    <table style="width: 100%; margin-bottom: 35px; border-top: 1px solid #666; border-bottom: 1px solid #ccc; border-collapse: collapse">
+                        <colgroup>
+                            <col style="width: 130px" />
+                            <col style="width: 209px" />
+                            <col style="width: 130px" />
+                            <col style="width: auto" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #f7f7f7;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    작성자
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{user_name}</td>
+
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #f7f7f7;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    작성일
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{created_date}</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #f7f7f7;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    이메일
+                                </th>
+                                <td colspan="3" style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{email}</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #f7f7f7;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    제목
+                                </th>
+                                <td colspan="3" style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{subject}</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="padding: 15px 20px; background: #f7f7f7; color: #333; font-weight: bold; text-align: left; vertical-align: top"
+                                >
+                                    문의내용
+                                </th>
+                                <td colspan="3" style="padding: 15px 20px; line-height: 19px">{question}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="margin: 0 0 11px 0; font-size: 15px; font-weight: bold; color: #4a4a4a">문의답변</p>
+                    <table style="width: 100%; border-top: 1px solid #666; border-bottom: 1px solid #ccc; border-collapse: collapse">
+                        <colgroup>
+                            <col style="width: 130px" />
+                            <col style="width: 209px" />
+                            <col style="width: 130px" />
+                            <col style="width: auto" />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #f7f7f7;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    작성자
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">관리자</td>
+
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #f7f7f7;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    작성일
+                                </th>
+                                <td style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{answer_date}</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="
+                                        padding: 15px 20px;
+                                        border-bottom: 1px solid #e1e1e1;
+                                        background: #f7f7f7;
+                                        color: #333;
+                                        font-weight: bold;
+                                        text-align: left;
+                                    "
+                                >
+                                    답변제목
+                                </th>
+                                <td colspan="3" style="padding: 15px 20px; border-bottom: 1px solid #e1e1e1">{title}</td>
+                            </tr>
+                            <tr>
+                                <th
+                                    scope="row"
+                                    style="padding: 15px 20px; background: #f7f7f7; color: #333; font-weight: bold; text-align: left; vertical-align: top"
+                                >
+                                    답변내용
+                                </th>
+                                <td colspan="3" style="padding: 15px 20px; line-height: 19px">{answer}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="margin: 20px 0 0 0; text-align: center">
+                        <a
+                            href="#"
+                            title="나의 1:1문의 내역보기"
+                            style="
+                                display: inline-block;
+                                width: 210px;
+                                height: 56px;
+                                line-height: 54px;
+                                background: #000;
+                                font-size: 17px;
+                                color: #fff;
+                                font-weight: bold;
+                                text-align: center;
+                                text-decoration: none;
+                            "
+                            >문의 내역보기</a
+                        >
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<hr />
+<meta charset="utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{stie_name}</title>
+
+<div style="width: 760px">
+    <table style="width: 100%; border: 5px solid #d6d6d6; border-collapse: collapse">
+        <thead>
+            <tr>
+                <td style="padding: 25px 25px 55px">
+                    <h1 style="margin: 0; text-align: left">
+                        <a style="display: block" href="#" title="{site_name}"
+                            ><img style="border: 0" src="{site_url}/static/images/mail/mail_logo.gif" alt="{site_name}"
+                        /></a>
+                    </h1>
+                </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td style="padding: 50px 36px 30px; line-height: 18px; text-align: center">
+                    <div style="padding: 20px; background: #f5f5f5">
+                        <p style="margin: 0">본 메일은 발신전용으로 회신되지 않습니다. 문의사항은 고객센터를 이용해 주세요.</p>
+                        <p style="margin: 0">메일수신을 원하지 않을 경우, 홈페이지 로그인 후 회원정보변경에서 e-mail수신여부를 변경해 주세요.</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px 35px; line-height: 18px; color: #959595; text-align: center; font-family: 'Gulim', '굴림'; letter-spacing: -1px">
+                    <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >상호명 : (주)에스앤아이코퍼레이션</span
+                    ><span
+                        style="font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center; padding: 0px 6px; color: rgb(187, 187, 187); font-size: 10px"
+                        >|</span
+                    ><span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표자 : 형원준</span
+                    ><br style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center" /><span
+                        style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >주소 : 서울특별시 강서구 마곡중앙로 150 , D&amp;O 강서사옥</span
+                    ><span
+                        style="font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center; padding: 0px 6px; color: rgb(187, 187, 187); font-size: 10px"
+                        >|</span
+                    ><span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >사업자등록번호 : 707-86-02404</span
+                    ><br style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center" /><span
+                        style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                        >통신판매업 신고번호 : 제2021-서울강서-3652호</span
+                    >
+                    <p style="margin: 0">&nbsp;</p>
+                    <p style="margin: 0">
+                        <span style="color: rgb(149, 149, 149); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center">대표전화 : 1661-1119</span>
+                    </p>
+                    <p>&nbsp;</p>
+                    <p style="margin: 7px 0 0 0; color: #b0b0b0">
+                        C<span style="color: rgb(176, 176, 176); font-family: Gulim, 굴림; letter-spacing: -1px; text-align: center"
+                            >Copyright ⓒ S&amp;I Corp. All rights reserved.</span
+                        >
+                    </p>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td style="padding: 0 36px; text-align: center">
+                    <h2 style="margin: 0 0 35px; font-size: 38px; line-height: 45px; font-weight: bold; color: #1c2957">장기간 미사용 계정 휴면 전환 안내</h2>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 36px">
+                    <div
+                        style="
+                            padding: 28px 0;
+                            border-top: 1px solid #666;
+                            border-bottom: 1px solid #ccc;
+                            background: #f7f7f7;
+                            color: #4c4c4c;
+                            text-align: center;
+                        "
+                    >
+                        <p style="margin: 0 0 16px; font-size: 15px; font-weight: bold">안녕하세요. {site_name}입니다.</p>
+                        <p style="margin: 0 0 15px; font-size: 13px; line-height: 21px">
+                            회원님의 개인정보보호를 위해 1년 이상 {site_name} 서비스를 이용하지 않은 계정에 한해<br />정보통신망 이용 촉진 및 정보보호 등에 관한
+                            법률에 따라 휴면 계정으로 전환될 예정입니다.
+                        </p>
+                        <p style="margin: 0; font-size: 13px; line-height: 21px">
+                            회원님의 아이디가&nbsp;<span style="color: #000">{after30}까지 서비스 이용이 없을 경우&nbsp;</span
+                            ><span style="color: #000">휴면 계정</span>으로 전환될 예정이오니,&nbsp;
+                        </p>
+                        <p style="margin: 0; font-size: 13px; line-height: 21px">
+                            이를 원치 않으실 경우 하단의 “{site_name} 서비스 계속 이용하기” 버튼을 클릭해 주시기 바랍니다.
+                        </p>
+                    </div>
+                    <div style="margin: 20px 0 0 0; text-align: center">
+                        <a
+                            href="#"
+                            title="서비스 계속 이용하기"
+                            style="
+                                display: inline-block;
+                                width: 280px;
+                                height: 56px;
+                                line-height: 54px;
+                                background: #333;
+                                font-size: 17px;
+                                color: #fff;
+                                font-weight: bold;
+                                text-align: center;
+                                text-decoration: none;
+                            "
+                            >{site_name} 서비스 계속 이용하기</a
+                        >
+                    </div>
+                    <p style="margin: 34px 0 0 0; font-size: 13px; color: #4c4c4c; line-height: 21px">
+                        또한, 휴면계정으로 전환되어도 아이디/비밀번호로 로그인 하면 해제할 수 있으며,<br />아래와 같은 서비스에 대한 변경사항이 있으니 참고
+                        바랍니다.
+                    </p>
+
+                    <p style="margin: 35px 0 0 0; font-size: 15px; font-weight: bold; color: #333">휴면 계정 전환 시 변경 사항</p>
+                    <ul
+                        style="
+                            margin: 11px 0 0 0;
+                            padding: 18px 30px;
+                            font-size: 13px;
+                            color: #4c4c4c;
+                            background: #f7f7f7;
+                            line-height: 24px;
+                            list-style: none;
+                        "
+                    >
+                        <li>- 회원의 개인정보는 별도 분리하여 보관</li>
+                        <li>- 메일 수신 중지</li>
+                    </ul>
+
+                    <div style="margin: 11px 0 0 0; padding: 18px 27px; border: 1px solid #e0e0e0">
+                        <p style="margin: 0 0 12px; font-size: 13px; font-weight: bold">{site_name} 이용약관</p>
+                        <p style="margin: 0; line-height: 18px">
+                            회원이 12개월(365일) 이상 로그인을 하지 않은 경우 해당 회원의 아이디는 휴면아이디가 되어 회원 로그인을 비롯한 모든 서비스에 대한
+                            이용이 정지되고, 회사는 휴면아이디의 개인정보를 다른 아이디와 별도로 관리한다.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

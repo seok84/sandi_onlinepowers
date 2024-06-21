@@ -1,0 +1,24 @@
+<svg id="구성_요소_41_2" data-name="구성 요소 41 – 2" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="그룹_32203" data-name="그룹 32203" transform="translate(-2373 -718)" opacity="0">
+    <rect id="사각형_30256" data-name="사각형 30256" width="30" height="30" transform="translate(2373 718)" fill="#ff3e3e" opacity="0.36"/>
+    <rect id="사각형_30257" data-name="사각형 30257" width="24" height="24" transform="translate(2376 721)" fill="#ff3e3e" opacity="0.36"/>
+  </g>
+  <g id="그룹_32202" data-name="그룹 32202" transform="translate(-2381 -720)">
+    <g id="사각형_30250" data-name="사각형 30250" transform="translate(2385 724)" fill="none" stroke="#ea27c2" stroke-width="1">
+      <rect width="10" height="10" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="9" rx="2.5" fill="none"/>
+    </g>
+    <g id="사각형_30253" data-name="사각형 30253" transform="translate(2385 736)" fill="none" stroke="#ea27c2" stroke-width="1">
+      <rect width="10" height="10" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="9" rx="2.5" fill="none"/>
+    </g>
+    <g id="사각형_30251" data-name="사각형 30251" transform="translate(2397 724)" fill="none" stroke="#ea27c2" stroke-width="1">
+      <rect width="10" height="10" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="9" rx="2.5" fill="none"/>
+    </g>
+    <g id="사각형_30252" data-name="사각형 30252" transform="translate(2397 736)" fill="none" stroke="#ea27c2" stroke-width="1">
+      <rect width="10" height="10" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="9" rx="2.5" fill="none"/>
+    </g>
+  </g>
+</svg>

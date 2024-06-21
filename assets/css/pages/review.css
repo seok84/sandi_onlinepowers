@@ -1,0 +1,247 @@
+/* 
+//////////
+이용후기
+//////////
+*/
+
+.review_list_tit {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.review_list_tit p {
+    display: inline-block;
+}
+
+.tab_pane .review_list_tit p {
+    font: inherit;
+    line-height: 2.2rem;
+}
+
+.tab_pane .review_list_tit a {
+    line-height: 2.2rem;
+}
+
+.review_list ul li.list_area {
+    border-bottom: 1px solid var(--color-lightblue-line);
+    padding: 3rem 0;
+}
+
+.list_area {
+    border-bottom: 1px solid var(--color-lightblue-line);
+    padding: 4.4rem 0;
+}
+
+.list_area .thumbs_up {
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.list_area .thumbs_up .btn {
+    color: #000;
+    margin-left: auto;
+}
+
+.list_area .thumbs_up .btn_modify {
+    width: 100%;
+    max-width: 9rem;
+    height: 4rem;
+    line-height: 3.8rem;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.review_origin .btn_right_wrap {
+    width: 100%;
+}
+
+.user_wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.user_wrapper>* {
+    line-height: 2.4rem;
+    display: inline-block;
+}
+
+.user_wrapper .user_id_info,
+.user_wrapper .date {
+    font-size: var(--size-pc-main);
+    color: var(--color-font-03);
+}
+
+.user_wrapper .user_id_info {
+    margin-right: 1rem;
+}
+
+.user_wrapper .review_score {
+    width: 6.4rem;
+    height: 2.4rem;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 0 0;
+    font-size: 0;
+}
+
+.review_score.good {
+    background-image: url("~/assets/img/items/ico_score_good.svg");
+}
+
+.review_score.normal {
+    background-image: url("~/assets/img/items/ico_score_normal.svg");
+}
+
+.review_score.notgood {
+    background-image: url("~/assets/img/items/ico_score_notgood.svg");
+}
+
+.list_area .rating_star {
+    margin-top: 0.8rem;
+}
+
+.review_origin .txt_area {
+    font-size: var(--size-pc-pri);
+    margin: 2rem 0;
+    color: var(--color-font-0);
+    line-height: 1.6;
+    word-break: keep-all;
+}
+
+.review_filter_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.experience_list .review_list_tit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ranking_filter_area,
+.wrap_btn_current {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.review_list .review_filter_wrapper .check_wrap {
+    margin-bottom: 0;
+}
+
+.review_filter_wrapper .check_wrap>span {
+    font-size: var(--size-pc-pri);
+    margin: 0 0.6rem;
+}
+
+.wrap_btn_current {
+    font-size: var(--size-pc-pri);
+    color: var(--color-font-03);
+}
+
+.wrap_btn_current .on {
+    color: var(--color-font-01);
+}
+
+.review_list .ranking_filter_area .select_wrap,
+.ranking_filter_area .select_wrap {
+    margin: 0;
+    width: 18rem;
+}
+
+.review_list .administrator_answer {
+    margin: 1.5rem 0 0;
+}
+
+
+
+
+.list_area .thumbs_up {
+    width: 100%;
+    display: flex;
+}
+
+.review_origin .txt_area {
+    font-size: var(--size-pc-pri);
+    color: var(--color-font-01);
+    line-height: 1.6;
+    word-break: keep-all;
+    margin: 2rem 0;
+}
+
+.review_origin .txt_area .title {
+    font-size: 1.5rem;
+    letter-spacing: -.75px;
+}
+
+.review_filter_wrapper .check_wrap {
+    flex: 1;
+}
+
+.review_filter_wrapper .check_wrap>span {
+    font-size: var(--size-pc-pri);
+    margin: 0 0.6rem;
+}
+
+.wrap_btn_current a {
+    padding: 0 1rem;
+    position: relative;
+}
+
+.wrap_btn_current a::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 10px;
+    background-color: #d9d9d9;
+    transform: translateY(-25%);
+}
+
+.wrap_btn_current a:last-child {
+    padding-right: 0;
+}
+
+.wrap_btn_current a:last-child::after {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .ranking_filter_area .select_wrap {
+        width: 100%;
+    }
+
+    .review_list_tit {
+        font-size: 1.6rem;
+    }
+
+    .review_filter_wrapper {
+        height: auto;
+    }
+
+    .ranking_filter_area {
+        flex: unset;
+    }
+
+    .review_list ul li.list_area:first-child {
+        padding-top: 0;
+    }
+
+    #itemDetailView .review_list ul li.list_area:first-child {
+        padding-top: 4rem;
+    }
+
+    .review_list .ranking_filter_area .select_wrap {
+        width: 100%;
+    }
+}

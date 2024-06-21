@@ -1,0 +1,252 @@
+<template>
+    <div class="guide_contents">
+        
+
+        <!-- end of guide tab -->
+        <div class="content">
+            <p class="guide_txt">카테고리 네비게이션</p>
+            <!-- //////////////////// 카테고리 네비게이션 바 //////////////////// -->
+            <div class="category-navigation">
+                <div class="drop-down-wrap">
+                    <div class="drop-down">
+                        <button class="drop-tit" type="button">
+                            홈
+                        </button>
+                    </div>
+                    <div class="connection"><span>+</span></div>
+                    <div class="drop-down">
+                        <div class="drop-tit more-desc" @click="toggleCate($event)">
+                            1차 카테고리
+                        </div>
+                        <div class="drop-down-menu">
+                            <a class="drop-down-item" href="javascript:void(0);">01</a>
+                            <a class="drop-down-item" href="javascript:void(0);">02</a>
+                            <a class="drop-down-item" href="javascript:void(0);">03</a>
+                            <a class="drop-down-item" href="javascript:void(0);">04</a>
+                            <a class="drop-down-item" href="javascript:void(0);">05</a>
+                            <a class="drop-down-item" href="javascript:void(0);">06</a>
+                        </div>
+                    </div>
+                    <div class="connection"><span>+</span></div>
+                    <div class="drop-down">
+                        <div class="drop-tit more-desc" @click="toggleCate($event)">
+                            2차 카테고리
+                        </div>
+                        <div class="drop-down-menu">
+                            <a class="drop-down-item on" href="javascript:void(0);">더미카테고리</a>
+                            <a class="drop-down-item" href="javascript:void(0);">더미카테고리</a>
+                            <a class="drop-down-item" href="javascript:void(0);">더미카테고리</a>
+                            <a class="drop-down-item" href="javascript:void(0);">더미카테고리</a>
+                            <a class="drop-down-item" href="javascript:void(0);">더미카테고리</a>
+                            <a class="drop-down-item" href="javascript:void(0);">더미카테고리</a>
+                            <a class="drop-down-item" href="javascript:void(0);">더미카테고리</a>
+                            <a class="drop-down-item" href="javascript:void(0);">더미카테고리</a>
+                            <a class="drop-down-item" href="javascript:void(0);">더미카테고리</a>
+                            <a class="drop-down-item" href="javascript:void(0);">더미카테고리</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- checkbox board -->
+
+            <p class="guide_txt">checkbox board</p>
+            <!-- //////////////////// 아코디언 스타일 01 //////////////////// -->
+            <!-- checkbox board -->
+            <div class="board_wrap">
+                <input type="checkbox" name="boardCheck" id="boardCheck" class="board_wrap_check" />
+                <label for="boardCheck" class="board_wrap_check_label">
+                    <span>아코디언 메뉴1</span>
+                </label>
+                <div class="board_wrap_check_area">
+                    <div class="board_contents">
+                        <!-- 여기에 패딩값이 있으면 중복 영역으로  -->
+                        <p>
+                            체포·구속·압수 또는 수색을 할 때에는 적법한 절차에 따라 검사의
+                            신청에 의하여 법관이 발부한 영장을 제시하여야 한다. 다만,
+                            현행범인인 경우와 장기 3년 이상의 형에 해당하는 죄를 범하고 도피
+                            또는 증거인멸의 염려가 있을 때에는 사후에 영장을 청구할 수 있다.
+                        </p>
+
+                        <p>
+                            신체장애자 및 질병·노령 기타의 사유로 생활능력이 없는 국민은
+                            법률이 정하는 바에 의하여 국가의 보호를 받는다. 일반사면을
+                            명하려면 국회의 동의를 얻어야 한다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <!-- //////////////////// 아코디언 스타일 02 //////////////////// -->
+            <div class="form_wrapper board_wrap">
+                <form action="">
+                    <input id="freeForId" type="checkbox" class="tab_toggle" />
+                    <label for="freeForId" class="tab_title">
+                        <h3>타이틀</h3>
+                    </label>
+                    <div class="tab_contents">내용물</div>
+                </form>
+            </div>
+
+            <!-- //////////////////// 아코디언 스타일 02 //////////////////// -->
+            <div class="board_wrap basic_board">
+                <form action="">
+                    <input id="board01" type="checkbox" class="tab_toggle" />
+                    <label for="board01" class="tab_title closed">
+                        <span class="inquiry_type">환불문의</span>
+                        <span>제목 영역입니다. 글이 접히면 이렇게 됩니다. 제목 영역입니다. 글이
+                            접히면 이렇게 됩니다.제목 영역입니다. 글이 접히면 이렇게
+                            됩니다.</span>
+                    </label>
+                    <div class="tab_contents">
+                        <!-- 내용자리 -->
+                        내용자리
+                    </div>
+                </form>
+            </div>
+
+
+            <p class="guide_txt">댓글 작성 및 리스트</p>
+            <!-- //////////////////// 댓글 //////////////////// -->
+
+            <div class="comment_container">
+                <div class="comment_count">
+                    <p>전체(1,357)</p>
+                    <p>댓글쓰기</p>
+                </div>
+                <hr>
+                <div class="comment_input_wrap">
+                    <textarea name="" id="" cols="30" rows="5" class="comment_input" placeholder="내용을 입력하세요"
+                        maxlength="100"></textarea>
+                    <div class="btn-wrap comment_btn">
+                        <button class="btn btn-middle btn-default">취소</button>
+                        <button class="btn btn-middle btn-attention">저장</button>
+                    </div>
+                </div>
+                <div class="comment_contents_wrap">
+                    <div class="comment_contents">
+                        <div class="comment_info">
+                            <p>online***</p>
+                            <p>2023-01-26</p>
+                        </div>
+                        <p class="comment_txt">
+                            로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽 디자인 분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나 시각적
+                            연출을 보여줄 때 사용하는 표준 채우기 텍스트로, 최종 결과물에 들어가는 실제적인 문장 내용이 채워지기 전에 시각 디자인 프로젝트 모형의 채움 글로도
+                            이용된다. 이런 용도로 사용할 때 로렘 입숨을 그리킹(greeking)이라고도 부르며, 때로 로렘 입숨은 공간만 차지하는 무언가를 지칭하는 용어로도 사용된다.
+                            로렘 입숨은 전통 라틴어와 닮은 점 때문에 종종 호기심을 유발하기도 하지만 그 이상의 의미를 담지는 않는다. 문서에서 텍스트가 보이면 사람들은 전체적인
+                            프레젠테이션보다는 텍스트에 담긴 뜻에 집중하는 경향이 있어서 출판사들은 서체나 디자인을 보일 때는 프레젠테이션 자체에 초점을 맞추기 위해 로렘 입숨을
+                            사용한다.
+                            로렘 입숨은 영어에서 사용하는 문자들의 전형적인 분포에 근접하다고도 하는데, 이 점 때문에 프레젠테이션으로 초점을 이동하는 데에도 도움을 준다.
+                        </p>
+                        <a href="javascript:void(0);" class="declaration">신고/차단</a>
+                    </div>
+                    <div class="comment_contents">
+                        <div class="comment_info">
+                            <p>online***</p>
+                            <p>2023-01-26</p>
+                        </div>
+                        <p class="comment_txt">
+                            로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽 디자인 분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나 시각적
+                            연출을 보여줄 때 사용하는 표준 채우기 텍스트로, 최종 결과물에 들어가는 실제적인 문장 내용이 채워지기 전에 시각 디자인 프로젝트 모형의 채움 글로도
+                            이용된다. 이런 용도로 사용할 때 로렘 입숨을 그리킹(greeking)이라고도 부르며, 때로 로렘 입숨은 공간만 차지하는 무언가를 지칭하는 용어로도 사용된다.
+                            로렘 입숨은 전통 라틴어와 닮은 점 때문에 종종 호기심을 유발하기도 하지만 그 이상의 의미를 담지는 않는다. 문서에서 텍스트가 보이면 사람들은 전체적인
+                            프레젠테이션보다는 텍스트에 담긴 뜻에 집중하는 경향이 있어서 출판사들은 서체나 디자인을 보일 때는 프레젠테이션 자체에 초점을 맞추기 위해 로렘 입숨을
+                            사용한다.
+                            로렘 입숨은 영어에서 사용하는 문자들의 전형적인 분포에 근접하다고도 하는데, 이 점 때문에 프레젠테이션으로 초점을 이동하는 데에도 도움을 준다.
+                        </p>
+                        <a href="javascript:void(0);" class="declaration">신고/차단</a>
+                    </div>
+                    <div class="comment_contents">
+                        <div class="comment_info">
+                            <p>online***</p>
+                            <p>2023-01-26</p>
+                        </div>
+                        <p class="comment_txt">
+                            로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽 디자인 분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나 시각적
+                            연출을 보여줄 때 사용하는 표준 채우기 텍스트로, 최종 결과물에 들어가는 실제적인 문장 내용이 채워지기 전에 시각 디자인 프로젝트 모형의 채움 글로도
+                            이용된다. 이런 용도로 사용할 때 로렘 입숨을 그리킹(greeking)이라고도 부르며, 때로 로렘 입숨은 공간만 차지하는 무언가를 지칭하는 용어로도 사용된다.
+                            로렘 입숨은 전통 라틴어와 닮은 점 때문에 종종 호기심을 유발하기도 하지만 그 이상의 의미를 담지는 않는다. 문서에서 텍스트가 보이면 사람들은 전체적인
+                            프레젠테이션보다는 텍스트에 담긴 뜻에 집중하는 경향이 있어서 출판사들은 서체나 디자인을 보일 때는 프레젠테이션 자체에 초점을 맞추기 위해 로렘 입숨을
+                            사용한다.
+                            로렘 입숨은 영어에서 사용하는 문자들의 전형적인 분포에 근접하다고도 하는데, 이 점 때문에 프레젠테이션으로 초점을 이동하는 데에도 도움을 준다.
+                        </p>
+                        <a href="javascript:void(0);" class="declaration">신고/차단</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- //////////////////// 배송주소록 //////////////////// -->
+
+            <p class="guide_txt">배송주소록</p>
+            <ul class="delivery_list">
+                <li>
+                    <div class="radio_wrap">
+                        <input type="radio" id="ship_check1" title="선택" name="ship_check" checked />
+                        <label for="ship_check1">
+                            <p class="name"><span>집</span>김민석</p>
+                        </label>
+                    </div>
+                    <div class="txt_area">
+                        <p class="user">김민석</p>
+                        <p class="address">
+                            서울특별시 구로구 디지털로27길 24 405 온라인파워스 1동 711호
+                        </p>
+                        <p class="phone">010-1234-5678</p>
+                    </div>
+                    <div class="btn_right_wrap">
+                        <a href="javascript:void(0);" class="btn btn-small btn-default btn_sm btn_edit">수정</a>
+                        <a href="javascript:void(0);" class="btn btn-small btn-default btn_sm btn_delete">삭제</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="radio_wrap">
+                        <input type="radio" id="ship_check2" title="선택" name="ship_check" />
+                        <label for="ship_check2">
+                            <p class="name"><span>회사</span>김민석</p>
+                        </label>
+                    </div>
+                    <div class="txt_area">
+                        <p class="user">김민석</p>
+                        <p class="address">
+                            서울특별시 구로구 디지털로27길 24 405 온라인파워스 1동 711호
+                        </p>
+                        <p class="phone">010-1234-5678</p>
+                    </div>
+                    <div class="btn_right_wrap">
+                        <a href="javascript:void(0);" class="btn btn-small btn-default btn_sm btn_edit">수정</a>
+                        <a href="javascript:void(0);" class="btn btn-small btn-default btn_sm btn_delete">삭제</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+    </div>
+</template>
+
+<script>
+
+
+export default {
+    components: {
+    },
+    layout: "basic",
+    methods: {
+        toggleCate(e) {
+
+            let dropTitle = e.target.parentNode;
+
+            dropTitle.classList.toggle("on");
+
+            console.log("check");
+
+            return false
+        }
+    }
+
+}
+</script>
+
+<style></style>

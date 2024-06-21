@@ -1,0 +1,105 @@
+.ex_list_wrap {
+  width: 100%;
+}
+
+.ex_list_wrap li {
+  border-bottom: 1px solid var(--color-lightblue-line);
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+}
+
+.ex_list_wrap .review_thumbnail_wrap ul li {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.ex_list_wrap .badge_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ex_list_wrap .badge_wrapper .btn_ss {
+  width: auto;
+  padding: 0 1.2rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.ex_list_wrap .list_top {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ex_list_wrap .list_top .experience_tit {
+  display: inline-block;
+  font-size: var(--size-pc-pri);
+  color: var(--color-font-01);
+  font-weight: 700;
+  
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.ex_list_wrap .dates {
+  font-size: 1.4rem;
+  color: var(--color-font-03);
+}
+
+#experience-management .review_thumbnail_wrap ul {
+  margin-bottom: 0;
+}
+
+.ex_list_wrap .btn_right_wrap {
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.ex_list_wrap .btn_right_wrap > div {
+  width: 100%;
+}
+
+.ex_list_wrap .review_thumbnail_wrap {
+  margin-top: 2rem;
+}
+
+@media (max-width: 480px) {
+  .lnb_content_wrapper_top {
+    padding: 0;
+  }
+
+  .ex_list_wrap li {
+    height: 100%;
+    padding-bottom: 3rem;
+  }
+
+  .ex_list_wrap .ex_list .btn_right_wrap .btn,
+  .mypage-content .btn_right_wrap .btn {
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 9rem;
+  }
+
+  .mypage-content .btn_right_wrap .btn.btn_accent {
+    max-width: unset;
+    width: auto;
+  }
+
+  .mypage-content .btn_right_wrap .btn_writing {
+    max-width: 9.8rem;
+  }
+
+  .ex_list_wrap .list_top {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ex_list_wrap .dates {
+    margin-top: 2rem;
+  }
+}

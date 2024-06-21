@@ -1,0 +1,115 @@
+:root {
+  /* ### root: color 숫자가 커질 수록 밝아짐 */
+  /* font */
+  --color-font-01: #000000;
+  --color-font-02: #787878;
+  --color-font-03: #9e9e9e;
+  --color-font-04: #b9b9b9;
+
+  /* etc */
+  --color-etc-tab: #f5f5f5;
+  --color-etc-drop: #f8f8f8;
+  --color-etc-bg: #fafafa;
+
+  --color-link: #7297c1;
+  --color-category: #2680eb;
+
+  --color-etc-font: #1f1f1f;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-dark: #333333;
+
+  /* line */
+  /* --color-line-01: #E6E8EF; */
+  --color-line-02: #eeeeee;
+  --color-line-03: #959595;
+  --color-line-04: #787878;
+  --color-line-05: #E6E8EF;
+
+  /* main color */
+
+  --color-main-green: #e7ff5e;
+
+  --color-sub-lightgreen: #f0ffd8;
+
+  --color-main-red: #ff5454;
+  --color-main-blue: #4073FF;
+
+  --color-main-pink: #EA27C2;   /* 샌디컬러 */
+  --color-sub-pink-1: #fc53d1;
+  --color-sub-pink-2: #FF88E3;
+
+  --color-lightpink: #ffb4ec;
+  --color-lightpink-bg: #FCF8FB;
+  
+  --color-lightblue: #F5F8FB;
+  --color-lightblue-bg: #F1F2F5;
+  --color-lightblue-line: #E6E8EF;
+
+  /* ### root: size */
+  /* pc font */
+  --size-pc-title: 3.4rem;
+  --size-pc-main: 1.6rem;
+  --size-pc-pri: 1.5rem;
+
+  /* pc title font */
+  --size-pc-tit-01: 3rem;
+
+  --size-pc-sub-tit-01: 2.8rem;
+  --size-pc-sub-tit-02: 2.3rem;
+  --size-pc-sub-tit-03: 1.8rem;
+  --size-pc-sub-tit-04: 1.6rem;
+
+  --size-pc-sub-txt: 1.4rem;
+
+
+  /* co font */
+  --size-co-sub: 2rem;
+  --size-co-desc: 1.3rem;
+
+  /* margin style */
+  --common-bottom: 12rem;
+  --common-bottom-02: 4rem;
+
+  /* 반응형 폰트 */
+  --font-medium: 1.6rem;
+  --font-large: 2rem;
+
+}
+
+/* 모바일 */
+@media (max-width: 480px) {
+  :root {
+
+    /* ### root: size */
+    /* pc font */
+    --size-pc-title: 2.4rem;
+    --size-pc-main: 1.5rem;
+    --size-pc-pri: 1.4rem;
+
+    /* pc title font */
+    --size-pc-tit-01: 2.8rem;
+
+    --size-pc-sub-tit-01: 2.2rem;
+    --size-pc-sub-tit-02: 1.9rem;
+    --size-pc-sub-tit-03: 1.6rem;
+    --size-pc-sub-tit-04: 1.5rem;
+
+    --size-pc-sub-txt: 1.3rem;
+
+
+    --size-co-desc: 1.2rem;
+
+    /* margin style */
+    --common-bottom: 8rem;
+    --common-bottom-02: 3rem;
+
+    /* height */
+    --vh: 100%;
+    /* 반응형 폰트 */
+    --font-medium: 1.1rem;
+    --font-large: 1.1rem;
+
+  }
+}

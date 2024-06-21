@@ -1,0 +1,135 @@
+/* tab style */
+.tab_container {
+  position: relative;
+  margin: auto;
+}
+
+.tab_wrapper {
+  width: 100%;
+  height: 6.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.tab_wrapper .btn_tab {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  color: #b1b1b1;
+  flex: 1;
+  margin: 0;
+  letter-spacing: -0.8px;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid var(--color-line-05);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.tab_wrapper .btn_tab.active{
+  font-weight: bold;
+}
+
+.tab_wrapper .btn_tab:hover {
+  background: none;
+  border-top: 0;
+}
+
+.tab_wrapper .btn_tab span {
+  position: absolute;
+  line-height: normal;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+  transform: translate(-50%, -52%);
+  font-size: 1.6rem;
+  font-weight: inherit;
+}
+
+.tab_wrapper .btn_tab.active {
+  color: var(--color-main-pink);
+  border-bottom: 2px solid var(--color-main-pink);
+}
+
+/* 인풋 바텀 마진값 */
+.form_line:not(.invalid) li input {
+  margin-bottom: 0;
+}
+
+.form_wrapper li .margin_none input {
+  margin-bottom: 0rem;
+}
+
+.form_wrapper li .margin_add .form_line:last-child {
+  margin-bottom: 0;
+}
+
+/* tab_title, tab_toggle */
+.tab_title {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.tab_title > * {
+  font-size: 2rem;
+  
+}
+.tab_title > *,
+.tab_toggle:checked + .tab_title > * {
+  font-size: 2rem;
+  
+  color: #000;
+}
+.tab_toggle {
+  display: none;
+}
+
+.tab_title::after {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  right: 0;
+  transform: rotate(0deg);
+  transform-origin: center;
+  background-image: url("~/assets/img/common/ico_arrow_top.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s ease;
+}
+
+.tab_toggle:checked + .tab_title:after {
+  transform: rotate(-180deg);
+}
+
+.closed.tab_title:after {
+  transform: rotate(-180deg);
+}
+
+.tab_toggle:checked ~ .tab_contents {
+  height: 0;
+  padding: 0;
+}
+
+/* ### 반응형 */
+
+/* 모바일 */
+@media (max-width: 480px) {
+  .tab_container {
+    width: 100%;
+    padding: 0 1.6rem;
+  }
+
+  .tab_wrapper .btn_tab span {
+    font-size: 1.6rem;
+    white-space: nowrap;
+  }
+}

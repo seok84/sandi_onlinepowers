@@ -1,0 +1,167 @@
+hr {
+    color: var(--color-black);
+    margin: 0 0 4rem;
+}
+
+.sub_title_wrap {
+    padding: 0;
+    margin: 0 0 3rem;
+}
+
+.title_wrap .default.title_sub {
+    height: 6rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: keep-all;
+}
+
+#resultView .content_container {
+    margin-top: 6rem;
+}
+
+/*  */
+#list-page {
+    /* 페이지 4rem */
+    margin-bottom: 6rem;
+}
+
+/*  */
+
+#listBrandView .logo_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+}
+
+#listBrandView .logo_container .brand_logo {
+    width: 12.8rem;
+    height: 12.8rem;
+    display: inline-flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#listBrandView .list_corner .title_wrap .title_main+a.btn_sns {
+    display: none;
+}
+
+#listBestView .all_counter {
+    display: none;
+}
+
+#listBestView .filter_wrapper {
+    justify-content: flex-end;
+}
+
+/* seok */
+.flex-vcenter .quantity-box,
+.flex-vcenter .order-area {
+    display: none;
+}
+
+@media (max-width: 780px) {}
+
+@media (min-width: 480px) {
+
+    .depth_cate_arr .title-h2.on+.depth_02_list,
+    .depth_cate_arr .title-h2+.depth_02_list,
+    .depth_cate_arr .title-h2.on::after,
+    .depth_cate_arr .title-h2::after {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .depth_cate_arr {
+        position: relative;
+        z-index: 7;
+    }
+
+    .depth_cate_arr .title-h2 {
+        padding-left: 3rem;
+    }
+
+    .depth_cate_arr .title-h2::after {
+        background: url("~/assets/img/common/ico_cate_arrow.svg") no-repeat center / 2rem 1rem;
+        content: "";
+        display: inline-block;
+        height: 3rem;
+        margin-left: 0.5rem;
+        margin-bottom: -.5rem;
+        position: relative;
+        transform-origin: center;
+        transition: rotate 1s ease;
+        width: 3rem
+    }
+
+    .depth_cate_arr .title-h2.on::after {
+        display: inline-block;
+        transform: rotate(180deg);
+    }
+
+    .depth_cate_arr .title-h2+.depth_02_list {
+        position: absolute;
+        top: 5rem;
+        left: 50%;
+        width: 14rem;
+        height: auto;
+        max-height: unset;
+        background-color: #fff;
+        border: 1px solid #000000;
+        border-radius: 0.5rem;
+        transform: translateX(-50%);
+        overflow: hidden;
+        padding: 1rem 0;
+        display: none;
+    }
+
+    .depth_cate_arr .title-h2.on+.depth_02_list {
+        display: block;
+    }
+
+    .depth_cate_arr .title-h2~.depth_02_list li a {
+        display: block;
+        width: 100%;
+        line-height: 3.6rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        cursor: pointer;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align: left;
+        box-sizing: border-box;
+        color: #333;
+        padding: 0 1rem;
+    }
+
+    .depth_cate_arr .title-h2~.depth_02_list li a:hover {
+        color: #000000;
+        background-color: var(--color-lightblue);
+        font-weight: 500;
+    }
+
+    #listBrandView .logo_container {
+        height: auto;
+        margin-bottom: 3rem;
+    }
+
+    #listBrandView .contents_edit img {
+        width: auto;
+        height: 100%;
+    }
+
+    #listBrandView .title_wrap .title_main {
+        white-space: nowrap;
+    }
+
+    #listBrandView .title_wrap .title_main {
+        margin-bottom: 3rem;
+    }
+}

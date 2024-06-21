@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="itemD1" class="item_wrapper">
+    <div v-for="item in itemInfo" :key="item" class="swiper-slider">
+      <div class="item_thumbnail">
+        <a href="javascript:void(0);">
+          <div class="sold_out">
+            <span>sold out</span>
+          </div>
+          <div class="thumbnail_area">
+            <img class="thumbnail_img" :src="item.thumbnailArea.itemThumbnail" alt="itemThumbnail" />
+            <div class="top_left"></div>
+            <div class="top_right"></div>
+            <div class="bottom_left"></div>
+            <div class="bottom_right">
+              <img :src="item.thumbnailArea.bottomRight" alt="basket" />
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="item_desc">
+        <img class="direct" src="../assets/img/layouts/item/direct.svg" alt="direct" />
+        <a href="javascript:void(0);" class="brand_area">
+          <p class="brand"></p>
+          <p class="title"></p>
+        </a>
+        <div class="price_area">
+          <p class="sale"><span></span>%</p>
+          <p class="price"><span></span>원</p>
+          <p class="discounted"><span></span>원</p>
+        </div>
+        <div class="badge_tag_area">
+          <div class="badge_tag cold"> 냉장 </div>
+          <div class="badge_tag freeDelivery">무료배송</div>
+          <div class="badge_tag recommend">MD추천</div>
+        </div>
+        <img class="wishlist" src="" alt="wishlist" />
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>

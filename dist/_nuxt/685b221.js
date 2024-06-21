@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{318:function(t,n,o){"use strict";o.r(n);var c={props:["txt"]},e=o(11),component=Object(e.a)(c,(function(){var t=this,n=t._self._c;return n("div",{staticClass:"no_content"},[n("p",[t._v(t._s(t.txt))])])}),[],!1,null,null,null);n.default=component.exports}}]);

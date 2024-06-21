@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,156,156,0);
+      }
+
+      .cls-2, .cls-3, .cls-6, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #040000;
+        stroke-linecap: square;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-6, .cls-7 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-6, .cls-7 {
+        stroke: #000;
+      }
+
+      .cls-7 {
+        fill: #e7ff5e;
+      }
+
+      .cls-10, .cls-8 {
+        stroke: none;
+      }
+
+      .cls-10 {
+        fill: #000;
+      }
+    </style>
+  </defs>
+  <g id="그룹_31109" data-name="그룹 31109" transform="translate(-709 -810)">
+    <rect id="사각형_30916" data-name="사각형 30916" class="cls-1" width="80" height="80" transform="translate(709 810)"/>
+    <g id="그룹_30533" data-name="그룹 30533" transform="translate(155 -111.477)">
+      <g id="그룹_30532" data-name="그룹 30532">
+        <line id="선_375" data-name="선 375" class="cls-2" x2="59" transform="translate(558 982.977)"/>
+        <g id="사각형_30930" data-name="사각형 30930" class="cls-3" transform="translate(561.5 935.477)">
+          <rect class="cls-8" width="54" height="48"/>
+          <rect class="cls-9" x="0.75" y="0.75" width="52.5" height="46.5"/>
+        </g>
+        <g id="사각형_30942" data-name="사각형 30942" class="cls-4" transform="translate(567.5 941.477)">
+          <rect class="cls-8" width="11" height="10.93"/>
+          <rect class="cls-9" x="0.75" y="0.75" width="9.5" height="9.43"/>
+        </g>
+        <g id="사각형_30943" data-name="사각형 30943" class="cls-4" transform="translate(582.5 941.477)">
+          <rect class="cls-8" width="11" height="10.93"/>
+          <rect class="cls-9" x="0.75" y="0.75" width="9.5" height="9.43"/>
+        </g>
+        <g id="그룹_30531" data-name="그룹 30531" transform="translate(-11 -26)">
+          <g id="그룹_30530" data-name="그룹 30530">
+            <g id="패스_10576" data-name="패스 10576" class="cls-5" transform="translate(627 992)">
+              <path class="cls-8" d="M 13.28906154632568 19.25 L 0.7500012516975403 19.25 L 0.7500012516975403 0.75 L 9.247633934020996 0.75 L 13.28906154632568 8.219192504882812 L 13.28906154632568 19.25 Z"/>
+              <path class="cls-10" d="M 1.500000953674316 1.5 L 1.500000953674316 18.5 L 12.53906154632568 18.5 L 12.53906154632568 8.409093856811523 L 8.800691604614258 1.5 L 1.500000953674316 1.5 M 9.5367431640625e-07 0 L 9.694570541381836 0 L 14.03906154632568 8.029299736022949 L 14.03906154632568 20 L 9.5367431640625e-07 20 L 9.5367431640625e-07 0 Z"/>
+            </g>
+            <path id="패스_10577" data-name="패스 10577" class="cls-6" d="M-5074.336,13518.644v7.295h8.622" transform="translate(5706.336 -12526)"/>
+            <g id="사각형_30941" data-name="사각형 30941" class="cls-7" transform="translate(593 988)">
+              <rect class="cls-8" width="36" height="24"/>
+              <rect class="cls-9" x="0.75" y="0.75" width="34.5" height="22.5"/>
+            </g>
+            <g id="타원_1437" data-name="타원 1437" class="cls-4" transform="translate(600 1005)">
+              <circle class="cls-8" cx="5" cy="5" r="5"/>
+              <circle class="cls-9" cx="5" cy="5" r="4.25"/>
+            </g>
+            <g id="타원_1438" data-name="타원 1438" class="cls-4" transform="translate(625 1005)">
+              <circle class="cls-8" cx="5" cy="5" r="5"/>
+              <circle class="cls-9" cx="5" cy="5" r="4.25"/>
+            </g>
+            <g id="그룹_30528" data-name="그룹 30528" transform="translate(698.725 -179.659) rotate(30)">
+              <g id="타원_1436" data-name="타원 1436" class="cls-4" transform="translate(509.571 1058.714)">
+                <ellipse class="cls-8" cx="5" cy="6" rx="5" ry="6"/>
+                <ellipse class="cls-9" cx="5" cy="6" rx="4.25" ry="5.25"/>
+              </g>
+              <path id="패스_10564" data-name="패스 10564" class="cls-6" d="M-5188.713,13609.468s-2.022,2.231-.169,5.685.169,5.221.169,5.221" transform="translate(5703.285 -12550.2)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

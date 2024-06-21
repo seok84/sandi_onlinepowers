@@ -1,0 +1,19 @@
+<svg id="ic_drop" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="ic_drop-2" data-name="ic_drop" transform="translate(10) rotate(90)">
+    <rect id="사각형_29637" data-name="사각형 29637" class="cls-1" width="10" height="10"/>
+    <path id="패스_8627" data-name="패스 8627" class="cls-2" d="M0,8,4,4,0,0" transform="translate(3.497 1)"/>
+  </g>
+</svg>

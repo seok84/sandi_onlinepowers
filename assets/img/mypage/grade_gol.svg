@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 32px;
+        font-family: S-CoreDream-7ExtraBold, 'S-Core Dream \37 ';
+        font-weight: 800;
+        letter-spacing: -0.05em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.874" y1="0.13" x2="0.165" y2="0.789" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eecd60"/>
+      <stop offset="1" stop-color="#c8a122"/>
+    </linearGradient>
+  </defs>
+  <g id="그룹_31368" data-name="그룹 31368" transform="translate(-490 -747)">
+    <circle id="타원_1307" data-name="타원 1307" class="cls-1" cx="40" cy="40" r="40" transform="translate(490 747)"/>
+    <text id="G" class="cls-2" transform="translate(530.001 800)"><tspan x="-11.568" y="0">G</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80.002" height="42.001" viewBox="0 0 80.002 42.001">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  <g id="그룹_30096" data-name="그룹 30096" transform="translate(-4471.999 -1753)">
+    <path id="합치기_143" data-name="합치기 143" d="M-12406,36h-31a3,3,0,0,1-3-3V3a3,3,0,0,1,3-3h74a3,3,0,0,1,3,3V33a3,3,0,0,1-3,3h-31l-6,6Z" transform="translate(16912 1753)"/>
+    <g id="txt" transform="translate(4017.001 1343)">
+      <rect id="사각형_29894" data-name="사각형 29894" class="cls-1" width="80" height="36" transform="translate(455 410)"/>
+    </g>
+  </g>
+</svg>

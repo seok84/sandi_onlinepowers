@@ -1,0 +1,44 @@
+<svg id="ic_down" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #e7ff5e;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+
+      .cls-5, .cls-6 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_2951" data-name="사각형 2951" class="cls-1" width="24" height="24" transform="translate(24 24) rotate(180)"/>
+  <g id="ic_down-2" data-name="ic_down" transform="translate(18 19) rotate(180)">
+    <rect id="사각형_30119" data-name="사각형 30119" class="cls-2" width="14" height="14" transform="translate(-1)"/>
+    <g id="빼기_13" data-name="빼기 13" class="cls-3" transform="translate(6612 724)">
+      <path class="cls-5" d="M-6611.5-720h-1.5v-4h14v4h-1.5v-2.5h-11v2.5Z"/>
+      <path class="cls-6" d="M -6611.5 -719.9992065429688 L -6613.00048828125 -720.0001831054688 L -6613.00048828125 -723.9998779296875 L -6598.99951171875 -723.9998779296875 L -6598.99951171875 -720.0011596679688 L -6600.5 -720.0001831054688 L -6600.5 -722.4995727539062 L -6611.5 -722.4995727539062 L -6611.5 -719.9992065429688 Z"/>
+    </g>
+    <path id="패스_10492" data-name="패스 10492" class="cls-4" d="M7.986.75h-8" transform="translate(6.75 6.014) rotate(90)"/>
+    <path id="패스_10493" data-name="패스 10493" class="cls-4" d="M9.885,8.56l-4-4-4,4" transform="translate(0.115 0.44)"/>
+  </g>
+</svg>

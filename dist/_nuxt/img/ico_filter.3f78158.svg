@@ -1,0 +1,45 @@
+<svg id="ic_filter" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #e7ff5e;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_30095" data-name="사각형 30095" class="cls-1" width="30" height="30"/>
+  <rect id="사각형_30096" data-name="사각형 30096" class="cls-1" width="20" height="20" transform="translate(5 5)"/>
+  <g id="그룹_29202" data-name="그룹 29202" transform="translate(-1 0.196)">
+    <line id="선_358" data-name="선 358" class="cls-2" y2="16" transform="translate(24 9.804) rotate(90)"/>
+    <line id="선_359" data-name="선 359" class="cls-2" y1="16" transform="translate(24 19.304) rotate(90)"/>
+    <g id="타원_1305" data-name="타원 1305" class="cls-3" transform="translate(20 6.804)">
+      <circle class="cls-4" cx="3" cy="3" r="3"/>
+      <circle class="cls-5" cx="3" cy="3" r="2.25"/>
+    </g>
+    <g id="타원_1306" data-name="타원 1306" class="cls-3" transform="translate(6 16.304)">
+      <circle class="cls-4" cx="3" cy="3" r="3"/>
+      <circle class="cls-5" cx="3" cy="3" r="2.25"/>
+    </g>
+  </g>
+</svg>

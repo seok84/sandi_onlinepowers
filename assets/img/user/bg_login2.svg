@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="622" height="725" viewBox="0 0 622 725">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.767" cy="0.269" r="0.87" gradientTransform="matrix(-0.734, 0.68, 0.68, 0.734, 1.147, -0.45)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9fc9f"/>
+      <stop offset="1" stop-color="#f3ffe5"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.233" cy="0.731" r="0.87" gradientTransform="matrix(0.734, -0.68, -0.68, -0.734, 0.559, 1.426)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fef9ae"/>
+      <stop offset="0.665" stop-color="#f2ffab"/>
+      <stop offset="1" stop-color="#f2fff2"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.767" cy="0.269" r="0.87" gradientTransform="matrix(-0.734, 0.68, 0.68, 0.734, 1.147, -0.45)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#baff7e"/>
+      <stop offset="0.494" stop-color="#a2ff7b"/>
+      <stop offset="1" stop-color="#e9ffd6"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="0.233" cy="0.731" r="0.87" gradientTransform="matrix(0.734, -0.68, -0.68, -0.734, 0.559, 1.426)" xlink:href="#radial-gradient-3"/>
+  </defs>
+  <g id="그룹_32035" data-name="그룹 32035" transform="translate(-111.999)">
+    <circle id="타원_1830" data-name="타원 1830" cx="125.5" cy="125.5" r="125.5" transform="translate(197.999 474)" fill="url(#radial-gradient)"/>
+    <circle id="타원_1834" data-name="타원 1834" cx="74.5" cy="74.5" r="74.5" transform="translate(539.999 0)" fill="url(#radial-gradient-2)"/>
+    <circle id="타원_1835" data-name="타원 1835" cx="26" cy="26" r="26" transform="translate(681.999 168)" fill="url(#radial-gradient-3)"/>
+    <circle id="타원_1842" data-name="타원 1842" cx="12.526" cy="12.526" r="12.526" transform="translate(666.205 346.251) rotate(-104)" fill="url(#radial-gradient-4)"/>
+    <ellipse id="타원_1836" data-name="타원 1836" cx="74.5" cy="75" rx="74.5" ry="75" transform="translate(111.999 483)" fill="url(#radial-gradient-3)"/>
+  </g>
+</svg>

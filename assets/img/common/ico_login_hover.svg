@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <clipPath id="oekuk8ui3a">
+            <path data-name="빼기 27" d="M18 24H0V0h18v5h-2v14h2v5z" transform="translate(-14269 -24267)" style="fill:#ff8282"/>
+        </clipPath>
+    </defs>
+    <path data-name="사각형 26362" style="fill:transparent;opacity:.36" d="M0 0h40v40H0z"/>
+    <g data-name="그룹 28899">
+        <path data-name="사각형 26360" transform="translate(5 5)" style="fill:transparent;opacity:.36" d="M0 0h30v30H0z"/>
+        <g data-name="그룹 31926">
+            <path data-name="빼기 28" d="M18 24H0V0h18v5h-2v14h2v5z" transform="translate(8 8)" style="fill:#e7ff5e"/>
+            <g data-name="그룹 31924">
+                <path data-name="패스 4097" d="m13120.268-242.456-5 5 5 5" transform="translate(-13099.268 256.957)" style="stroke:#000;stroke-width:1.5px;fill:none"/>
+                <path data-name="패스 4098" d="M13115.268-238.1h16" transform="rotate(180 6574.134 -109.298)" style="stroke:#000;stroke-width:1.5px;fill:none"/>
+            </g>
+            <g data-name="마스크 그룹 557" transform="translate(14277 24275)" style="clip-path:url(#oekuk8ui3a)">
+                <g data-name="사각형 27240" style="stroke:#000;stroke-width:1.5px;fill:none">
+                    <path style="stroke:none" d="M0 0h18v24H0z" transform="translate(-14269 -24267)"/>
+                    <path style="fill:none" d="M.75.75h16.5v22.5H.75z" transform="translate(-14269 -24267)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

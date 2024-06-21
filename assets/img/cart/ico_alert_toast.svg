@@ -1,0 +1,34 @@
+<svg id="ic_alert_toast_01" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #ababab;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #ababab;
+      }
+
+      .cls-2 {
+        stroke-width: 0.4px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="사각형_25248" data-name="사각형 25248" class="cls-1">
+    <rect class="cls-4" width="20" height="20" rx="10"/>
+    <rect class="cls-5" x="0.5" y="0.5" width="19" height="19" rx="9.5"/>
+  </g>
+  <path id="패스_7784" data-name="패스 7784" class="cls-2" d="M37,986.126a.681.681,0,1,0,.681.681A.681.681,0,0,0,37,986.126Z" transform="translate(-26.984 -972.143)"/>
+  <g id="사각형_26102" data-name="사각형 26102" class="cls-3" transform="translate(9.334 4.666)">
+    <rect class="cls-4" width="1.333" height="8" rx="0.667"/>
+    <rect class="cls-5" x="0.5" y="0.5" width="0.333" height="7" rx="0.167"/>
+  </g>
+</svg>

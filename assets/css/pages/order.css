@@ -1,0 +1,258 @@
+/* 
+결제정보 
+payment_info_wrap
+*/
+.payment_info_wrap {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.payment_info {
+  background-color: var(--color-etc-bg);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.payment_info .info_tit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 3rem 3rem 0;
+}
+
+.payment_info .btn_right_wrap {
+  margin: 0;
+  width: 100%;
+}
+
+.payment_info .btn_right_wrap .btn {
+  width: auto;
+}
+
+.payment_info h6 {
+  font-size: 1.8rem;
+  width: 50%;
+  
+  line-height: 1.39;
+  color: var(--color-font-01);
+}
+
+.payment_info dl {
+  width: 100%;
+  color: #333333;
+  padding: 0 3rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment_info dt,
+.payment_info dd {
+  display: inline-block;
+  margin-bottom: 1.6rem;
+  font-size: var(--size-pc-main);
+  line-height: 1.333;
+  display: inline-table;
+  vertical-align: top;
+}
+
+.payment_info dt {
+  width: 20%;
+}
+
+.payment_info dd {
+  width: 79.9%;
+  font-weight: 700;
+}
+
+.payment_info dd > * {
+  font: inherit;
+  margin:0;
+  line-height:inherit;
+  display: inline-block;
+  
+}
+
+
+.payment_info.justifyB dt,
+.payment_info.justifyB dd {
+  width: 49.9%;
+  color: #333333;
+  font-weight: 400;
+}
+
+.payment_info dl .tit {
+  font-weight: 700;
+}
+
+.payment_info .delivery_charge > *,
+.payment_info .use_point > * {
+  margin-bottom: 0;
+}
+
+.payment_info.justifyB dd {
+  text-align: right;
+}
+
+
+.payment_info.justifyB dd span {
+  margin-right: 0.4rem;
+}
+
+.payment_info dt {
+  padding-left: 1rem;
+}
+.payment_info dt.indent {
+  color: #787878;
+  position: relative;
+  padding-left: 2.8rem;
+  font-size: 1.4rem;
+}
+
+.payment_info dt.indent + dd {
+  color: #787878;
+  font-size: 1.4rem;
+}
+
+.payment_info dl {
+  padding: 1.2rem 3rem;
+  position: relative;
+}
+
+.payment_info dl:not(:first-child) dt:not(:first-of-type):last-of-type,
+.payment_info dl:not(:first-child) dd:not(:first-of-type):last-of-type {
+  margin: 0 0 1rem;
+}
+
+.payment_info dl:last-of-type dt:not(:first-of-type):last-of-type,
+.payment_info dl:last-of-type dd:not(:first-of-type):last-of-type {
+  margin: 0;
+}
+
+.payment_info dl::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.5rem;
+  background-image: url("~/assets/img/common/ico_bg_line.svg");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.payment_info dl:last-of-type::after {
+  display: none;
+}
+
+.payment_info dl:first-of-type {
+  padding-top: 0;
+}
+
+.payment_info dl:last-of-type {
+  padding-bottom: 3rem;
+}
+
+.payment_info dl dt:last-of-type,
+.payment_info dl dd:last-of-type {
+  margin-bottom: 0;
+}
+
+.payment_charge {
+  display: flex;
+}
+
+.payment_charge dt,
+.payment_charge dd {
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .payment_info .btn_right_wrap {
+    display: none;
+  }
+  .payment_info {
+    padding: 0;
+  }
+  .payment_info_02 .info_tit {
+    margin-bottom: 0;
+  }
+
+  .payment_info dt {
+    width: 38%;
+    padding-left: 0;
+  }
+  .payment_info dd {
+    width: 62%;
+  }
+
+  .payment_info dt,
+  .payment_info dd {
+    line-height: 1.47;
+    margin-bottom: 1rem;
+  }
+
+  .payment_info .info_tit {
+    padding: 3rem 2rem 0;
+    margin-bottom: 2rem;
+  }
+
+  .payment_info dl {
+    padding: 1rem 3rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .payment_info .use_point,
+  .payment_info .delivery_charge,
+  .payment_info .payment_charge {
+    padding: 1rem 3rem;
+  }
+
+  .payment_info_wrap {
+    padding: 0 1.6rem;
+  }
+
+  .payment_info {
+    margin-bottom: 1rem;
+  }
+
+  .myInfo .payment_info_wrap {
+    /* margin-top: 5rem; */
+    padding: 0;
+  }
+
+  .payment_info_02 dl.payment_charge {
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .payment_info_02 dl.payment_charge > * {
+    color: #000;
+  }
+
+  .payment_info_02 dl {
+    border: 0;
+    position: relative;
+  }
+
+  .payment_info dl::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 0.5rem;
+    background-image: url("~/assets/img/common/ico_bg_line.svg");
+    background-size: contain;
+    background-repeat: repeat-x;
+  }
+
+  .payment_info dl:last-child::after {
+    display: none;
+  }
+  .payment_info dt.indent {
+    padding-left: 1.8rem;
+  }
+}

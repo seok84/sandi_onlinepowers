@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{site_name} 메일링</title>
+    <style>
+        .mailing-inner div a {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; position: relative; flex-direction: row" class="mailing-inner">
+        <div style="
+                    width: 30%;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    font-size: 14px;
+                ">
+            <p style="color: red; margin: 10px">- 클릭 시 해당 메일링으로 이동합니다</p>
+
+            <a href="./회원가입.html">회원가입</a>
+            <a href="./임시비밀번호안내.html">임시비밀번호안내</a>
+            <a href="./결제완료.html">결제완료</a>
+            <a href="./문의답변.html">문의답변</a>
+            <a href="./배송중.html">배송중</a>
+            <a href="./입금대기.html">입금대기</a>
+            <a href="./포인트소멸예정.html">포인트소멸예정</a>
+            <a href="./휴면안내.html">휴면안내</a>
+        </div>
+
+    </div>
+
+</html>

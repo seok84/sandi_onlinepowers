@@ -1,0 +1,20 @@
+<svg id="top" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <circle id="타원_1266" data-name="타원 1266" class="cls-1" cx="15" cy="15" r="15" transform="translate(30 30) rotate(180)"/>
+  <g id="그룹_28753" data-name="그룹 28753" transform="translate(9 3700) rotate(180)">
+    <path id="패스_4400" data-name="패스 4400" class="cls-2" d="M1240.761,517.658l6,6,6-6" transform="translate(-1252.761 3168.341)"/>
+    <line id="선_2" data-name="선 2" class="cls-2" y2="15" transform="translate(-6 3676.999)"/>
+  </g>
+</svg>

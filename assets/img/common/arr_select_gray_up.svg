@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,133,133,0);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #b9b9b9;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_260_2" data-name="구성 요소 260 – 2" transform="translate(30 30) rotate(180)">
+    <rect id="사각형_30238" data-name="사각형 30238" class="cls-1" width="30" height="30" transform="translate(30) rotate(90)"/>
+    <path id="패스_10500" data-name="패스 10500" class="cls-2" d="M6662.7,124.25l5,5-5,5" transform="translate(143.75 -6650.203) rotate(90)"/>
+  </g>
+</svg>

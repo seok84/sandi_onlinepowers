@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[38],{800:function(e,t,n){"use strict";n.r(t);var l={name:"BadgeItem",props:{badgeItem:{type:[String],required:!0}}},r=n(11),component=Object(r.a)(l,(function(){return(0,this._self._c)("span",{staticClass:"badge_item",class:this.badgeItem})}),[],!1,null,null,null);t.default=component.exports}}]);

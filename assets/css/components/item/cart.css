@@ -1,0 +1,61 @@
+/** item/part/cart 컴포넌트 **/
+
+/** item-delivery **/
+.item-delivery {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 2rem 0 0;
+    border-top: .1rem dotted var(--color-line-05);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.item-delivery .title {
+    margin: 0 0 .9rem;
+}
+
+.item-delivery .price {
+    display: flex;
+    align-items: center;
+}
+
+.item-delivery .price strong {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.tootip {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: 0 0 0 .6rem;
+    font-size: 0;
+    border-radius: 100%;
+    background-color: var(--color-line-05);
+    background-image: url('~/assets/img/common/ico_q.png');
+    background-repeat: no-repeat;
+    background-size: .7rem 1.2rem;
+    background-position: center;
+}
+
+
+.item-delivery .radio-wrap label {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.item-delivery .radio-wrap input {
+    margin-right: .6rem;
+}
+
+/* 노트북 */
+@media (max-width: 1194px) {}
+
+@media (max-width: 991px) {}
+
+/* 태블릿 */
+@media (max-width: 768px) {}
+
+/* 모바일 */
+@media (max-width: 480px) {}

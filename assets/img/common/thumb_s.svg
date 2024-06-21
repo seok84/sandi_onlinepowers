@@ -1,0 +1,37 @@
+<svg id="thumb_s" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+
+      .cls-2 {
+        fill: #dbdbdb;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: rgba(0,0,0,0.03);
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="그룹_30816" data-name="그룹 30816">
+    <rect id="사각형_1520" data-name="사각형 1520" class="cls-1" width="80" height="80"/>
+    <g id="ic_no_img" transform="translate(20 20)">
+      <path id="패스_10429" data-name="패스 10429" class="cls-2" d="M37.054,3.77,35.283,2,2,35.283l1.77,1.77,2.5-2.5H32.046a2.507,2.507,0,0,0,2.5-2.5V6.274ZM32.046,32.046H8.778l9.756-9.756,2.978,2.978a2.5,2.5,0,0,0,3.541,0l1.985-1.985,5.008,5Zm0-7.3-3.237-3.237a2.5,2.5,0,0,0-3.541,0l-1.985,1.985-2.976-2.976L32.046,8.778Z" transform="translate(0.504 0.504)"/>
+      <path id="패스_10430" data-name="패스 10430" class="cls-2" d="M6.5,26.535V22.779l6.26-6.255,1.719,1.719,1.773-1.773-1.721-1.721a2.5,2.5,0,0,0-3.541,0L6.5,19.238V6.5H26.535V4H6.5A2.506,2.506,0,0,0,4,6.5V26.535Z" transform="translate(1.008 1.008)"/>
+      <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-3" width="40" height="40"/>
+    </g>
+  </g>
+  <g id="line" class="cls-4">
+    <rect class="cls-5" width="80" height="80"/>
+    <rect class="cls-3" x="0.5" y="0.5" width="79" height="79"/>
+  </g>
+</svg>

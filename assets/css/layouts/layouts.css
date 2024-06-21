@@ -1,0 +1,207 @@
+/* 
+floating_side_menu
+*/
+.floating_side_menu {
+    position: fixed;
+    top: 18rem;
+    right: 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    transform: none;
+    transition: right 0.5s ease-out;
+    z-index: 1000;
+}
+
+/* #MainView  */
+.floating_side_menu {
+    top: 50%;
+    transform: translateY(-50%);
+    transition: top 0.5s ease-in-out;
+}
+
+.floating_side_menu.active {
+    right: -6.8rem;
+}
+
+input#fold_menu {
+    position: absolute;
+    top: 0;
+    right: 6.8rem;
+    width: 2.4rem;
+    height: 6rem;
+    background-color: #333;
+    background-image: url("~/assets/img/footer/ico_close02.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 0;
+    transform-origin: right center;
+    box-sizing: border-box;
+    border-radius: 1rem 0 0 1rem;
+}
+
+input#fold_menu::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -2px;
+    width: 4px;
+    height: 100%;
+    background-color: #333;
+}
+
+.active input#fold_menu {
+    background-image: url("~/assets/img/footer/ico_open02.png");
+}
+
+.side_menu_wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 6.8rem;
+    height: 30rem;
+    background-color: #333;
+    padding: 1.8rem 0;
+    box-sizing: border-box;
+    border-bottom-left-radius: 1rem;
+}
+
+.fm_link {
+    width: 100%;
+    height: 25%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0;
+    margin-bottom: 2rem;
+}
+
+.fm_link span {
+    display: block;
+    color: var(--color-sub-pink-2);
+    font-size: 1.2rem;
+    margin: 2px 0 1px;
+}
+
+.fm_link em {
+    display: block;
+    color: #e6e8ef;
+    font-size: 1.2rem;
+}
+
+.fm_link .fm_ico {
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.fm_basket .fm_ico {
+    background-image: url("~/assets/img/footer/ico_bag.svg");
+}
+.fm_interest .fm_ico {
+    background-image: url("~/assets/img/footer/ico_heart.svg");
+}
+.fm_record .fm_ico {
+    background-image: url("~/assets/img/footer/ico_view.png");
+}
+
+.fm_top_btn {
+    background-image: url("~/assets/img/footer/top.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3rem auto;
+    margin-bottom: 0;
+    position: relative;
+}
+
+/* 모바일 */
+@media (max-width: 480px) {
+}
+
+/* 
+/////////////////////////////////
+floating_side_menu  ##ONLY##
+/////////////////////////////////
+*/
+@media (min-width: 769px) {
+    header[data-page="index"] ~ .floating_side_menu.pinned {
+        top: 68rem;
+        transform: none;
+    }
+
+    header[data-page="index"].bannerOn ~ .floating_side_menu.pinned {
+        top: 73rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .floating_side_menu {
+        top: unset;
+        right: 1rem;
+        bottom: 9rem;
+        transition: none;
+        transform: none;
+    }
+
+    #header-ui[data-page="cart"] + .floating_side_menu,
+    #header-ui[data-page="order-order-step-01"] + .floating_side_menu {
+        bottom: 16.8rem;
+    }
+
+    input#fold_menu,
+    .floating_side_menu .side_menu_wrap a {
+        display: none;
+    }
+    .side_menu_wrap {
+        width: auto;
+        height: auto;
+        padding: 0;
+        background-color: transparent;
+    }
+    .fm_top_btn {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 2rem;
+        background-size: 75%;
+        background-color: #fff;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* 핸드폰 가로 */
+@media (max-device-aspect-ratio: 5/4) and (max-height: 499px) {
+    .floating_side_menu {
+        top: unset;
+        right: 1rem;
+        bottom: 5rem;
+    }
+
+    input#fold_menu,
+    .floating_side_menu .side_menu_wrap a {
+        display: none;
+    }
+    .side_menu_wrap {
+        width: auto;
+        height: auto;
+        padding: 0;
+        background-color: transparent;
+    }
+    .fm_top_btn {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 2rem;
+        background-size: 75%;
+        background-color: #fff;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .float_menu_bar.mobile {
+        display: block;
+        max-width: 50rem;
+    }
+}

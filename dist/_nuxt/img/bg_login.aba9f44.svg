@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="932" height="775" viewBox="0 0 932 775">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.233" cy="0.269" r="0.87" gradientTransform="matrix(0.734, 0.68, -0.68, 0.734, 0.245, -0.087)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fef9ae"/>
+      <stop offset="0.665" stop-color="#f2ffab"/>
+      <stop offset="1" stop-color="#f2fff2"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.233" cy="0.269" r="0.87" gradientTransform="matrix(0.734, 0.68, -0.68, 0.734, 0.245, -0.087)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#baff7e"/>
+      <stop offset="0.494" stop-color="#a2ff7b"/>
+      <stop offset="1" stop-color="#e9ffd6"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="0.233" cy="0.269" r="0.87" gradientTransform="matrix(0.734, 0.68, -0.68, 0.734, 0.245, -0.087)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9fc9f"/>
+      <stop offset="1" stop-color="#f3ffe5"/>
+    </radialGradient>
+  </defs>
+  <g id="그룹_31369" data-name="그룹 31369" transform="translate(-547 -124)">
+    <g id="그룹_31368" data-name="그룹 31368">
+      <circle id="타원_1834" data-name="타원 1834" cx="95" cy="95" r="95" transform="translate(793 314) rotate(-180)" fill="url(#radial-gradient)"/>
+      <circle id="타원_1835" data-name="타원 1835" cx="34" cy="34" r="34" transform="translate(547 337)" opacity="0.3" fill="url(#radial-gradient-2)"/>
+      <circle id="타원_1842" data-name="타원 1842" cx="15.891" cy="15.891" r="15.891" transform="translate(603 555.574) rotate(-76)" opacity="0.3" fill="url(#radial-gradient-2)"/>
+    </g>
+    <g id="그룹_31367" data-name="그룹 31367">
+      <circle id="타원_1830" data-name="타원 1830" cx="159" cy="159" r="159" transform="translate(1051 581)" fill="url(#radial-gradient-4)"/>
+      <circle id="타원_1836" data-name="타원 1836" cx="95" cy="95" r="95" transform="translate(1289 593)" opacity="0.2" fill="url(#radial-gradient-2)"/>
+    </g>
+  </g>
+</svg>

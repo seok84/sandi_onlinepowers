@@ -1,0 +1,21 @@
+<svg id="구성_요소_177_3" data-name="구성 요소 177 – 3" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0);
+      }
+
+      .cls-2 {
+        fill: rgba(255,133,133,0);
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #e0e0e0;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_27505" data-name="사각형 27505" class="cls-1" width="30" height="30"/>
+  <rect id="사각형_26301" data-name="사각형 26301" class="cls-2" width="6" height="16" transform="translate(12 7)"/>
+  <path id="패스_4099" data-name="패스 4099" class="cls-3" d="M6662.7,124.25l5,5.5-5,5.5" transform="translate(-6650.203 -114.75)"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg id="구성_요소_1919_1" data-name="구성 요소 1919 – 1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: square;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_2837" data-name="사각형 2837" class="cls-1" width="14" height="14"/>
+  <path id="패스_2896" data-name="패스 2896" class="cls-2" d="M8,6.164a1.319,1.319,0,0,1,.307-.848l3.059-3.642a.9.9,0,0,1,1.1-.227.846.846,0,0,1,.413,1.017L11.832,5.682h2.94A1.252,1.252,0,0,1,15,5.7a1.3,1.3,0,0,1,1.028,1.515l-.813,4.561a1.284,1.284,0,0,1-1.257,1.07H9.277A1.29,1.29,0,0,1,8,11.546Z" transform="translate(-2.823 -0.348)"/>
+  <path id="패스_2897" data-name="패스 2897" class="cls-2" d="M4,15.64V9" transform="translate(-1.774 -3.877)"/>
+</svg>
